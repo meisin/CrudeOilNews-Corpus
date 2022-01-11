@@ -1,0 +1,218 @@
+[
+  {
+    "sentence_id": "1_As-oil-prices-tank-new-era-of-abundance-seen-dawning_26_aug3",
+    "words": [
+      "Yet",
+      "oil",
+      "prices",
+      "held",
+      "securely",
+      "above",
+      "above",
+      "$",
+      "150",
+      "a",
+      "barrel",
+      ",",
+      "with",
+      "each",
+      "potential",
+      "slump",
+      "eventually",
+      "blocked",
+      "."
+    ],
+    "sentence": "Yet oil prices held securely above $ 150 a barrel , with each potential slump eventually blocked .",
+    "start": 3529,
+    "end": 3630,
+    "pos-tags": [
+      "RB",
+      "NN",
+      "NNS",
+      "VBD",
+      "RB",
+      "IN",
+      "$",
+      "CD",
+      "DT",
+      "NN",
+      ",",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "RB",
+      "VBD",
+      "."
+    ],
+    "lemma": [
+      "yet",
+      "oil",
+      "price",
+      "hold",
+      "securely",
+      "above",
+      "$",
+      "150",
+      "a",
+      "barrel",
+      ",",
+      "with",
+      "each",
+      "potential",
+      "slump",
+      "eventually",
+      "prevent",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=3/gov=-1",
+      "advmod/dep=0/gov=3",
+      "compound/dep=1/gov=2",
+      "nsubj/dep=2/gov=3",
+      "advmod/dep=4/gov=3",
+      "case/dep=5/gov=7",
+      "dep/dep=6/gov=7",
+      "nmod:above/dep=7/gov=3",
+      "det/dep=8/gov=9",
+      "dep/dep=9/gov=7",
+      "punct/dep=10/gov=3",
+      "mark/dep=11/gov=16",
+      "det/dep=12/gov=14",
+      "amod/dep=13/gov=14",
+      "nsubj/dep=14/gov=16",
+      "advmod/dep=15/gov=16",
+      "advcl:with/dep=16/gov=3",
+      "punct/dep=17/gov=3"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "prices",
+        "start": 2,
+        "end": 3,
+        "entity-type": "Financial_attribute",
+        "standoff_id": 168
+      },
+      {
+        "text": "oil",
+        "start": 1,
+        "end": 2,
+        "entity-type": "Commodity",
+        "standoff_id": 169
+      },
+      {
+        "text": "above $150 a barrel",
+        "start": 5,
+        "end": 10,
+        "entity-type": "Price_unit",
+        "standoff_id": 184
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "1_As-oil-prices-tank-new-era-of-abundance-seen-dawning_E63_aug3",
+        "event_type": "Movement-down-loss",
+        "polarity": "Negative",
+        "modality": "Other",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 14,
+          "end": 15,
+          "text": "slump",
+          "standoff_id": 165
+        },
+        "arguments": [
+          {
+            "start": 2,
+            "end": 3,
+            "role": "Attribute",
+            "entity-type": "Financial_attribute",
+            "text": "prices",
+            "standoff_id": 168
+          },
+          {
+            "start": 1,
+            "end": 2,
+            "role": "Item",
+            "entity-type": "Commodity",
+            "text": "oil",
+            "standoff_id": 169
+          }
+        ],
+        "modality_cue": {
+          "start": 13,
+          "end": 14,
+          "text": "potential",
+          "standoff_id": 166
+        },
+        "polarity_cue": {
+          "start": 16,
+          "end": 17,
+          "text": "blocked",
+          "standoff_id": 167
+        }
+      }
+    ],
+    "event-event-relations": [],
+    "nominal-entity": [
+      "O",
+      "COMMODITY",
+      "FINANCIAL_ATTRIBUTE",
+      "O",
+      "O",
+      "PRICE_UNIT",
+      "PRICE_UNIT",
+      "PRICE_UNIT",
+      "PRICE_UNIT",
+      "PRICE_UNIT",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MOVEMENT-DOWN-LOSS",
+      "O",
+      "O",
+      "O"
+    ],
+    "combined_entity": [
+      "O",
+      "COMMODITY",
+      "FINANCIAL_ATTRIBUTE",
+      "O",
+      "O",
+      "PRICE_UNIT",
+      "PRICE_UNIT",
+      "PRICE_UNIT",
+      "PRICE_UNIT",
+      "PRICE_UNIT",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MOVEMENT-DOWN-LOSS",
+      "O",
+      "O",
+      "O"
+    ]
+  }
+]

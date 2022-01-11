@@ -1,0 +1,139 @@
+[
+  {
+    "sentence_id": "2_supply_tremors_shake_OPEC_equilibrium_22_aug1",
+    "words": [
+      "There",
+      "is",
+      "no",
+      "room",
+      "for",
+      "more",
+      "supply",
+      "drop",
+      ".",
+      "''"
+    ],
+    "sentence": "There is no room for more supply drop . ''",
+    "start": 3282,
+    "end": 3333,
+    "pos-tags": [
+      "EX",
+      "VBZ",
+      "DT",
+      "NN",
+      "IN",
+      "JJ",
+      "NN",
+      "NN",
+      ".",
+      "''"
+    ],
+    "lemma": [
+      "there",
+      "be",
+      "no",
+      "room",
+      "for",
+      "more",
+      "supply",
+      "drop",
+      ".",
+      "''"
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=1/gov=-1",
+      "expl/dep=0/gov=1",
+      "neg/dep=2/gov=3",
+      "nsubj/dep=3/gov=1",
+      "case/dep=4/gov=7",
+      "amod/dep=5/gov=7",
+      "compound/dep=6/gov=7",
+      "nmod:for/dep=7/gov=3",
+      "punct/dep=8/gov=1",
+      "punct/dep=9/gov=1"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "supply",
+        "start": 6,
+        "end": 7,
+        "entity-type": "Financial_attribute",
+        "standoff_id": 36
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "2_supply_tremors_shake_OPEC_equilibrium_E14_aug1",
+        "event_type": "Movement-down-loss",
+        "polarity": "Negative",
+        "modality": "Other",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 7,
+          "end": 8,
+          "text": "drop",
+          "standoff_id": 35
+        },
+        "arguments": [
+          {
+            "start": 6,
+            "end": 7,
+            "role": "Attribute",
+            "entity-type": "Financial_attribute",
+            "text": "supply",
+            "standoff_id": 36
+          }
+        ],
+        "modality_cue": {
+          "start": 3,
+          "end": 5,
+          "text": "room for",
+          "standoff_id": 112
+        },
+        "polarity_cue": {
+          "start": 2,
+          "end": 3,
+          "text": "no",
+          "standoff_id": 111
+        }
+      }
+    ],
+    "event-event-relations": [],
+    "nominal-entity": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "FINANCIAL_ATTRIBUTE",
+      "MOVEMENT-DOWN-LOSS",
+      "O",
+      "O"
+    ],
+    "combined_entity": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "FINANCIAL_ATTRIBUTE",
+      "MOVEMENT-DOWN-LOSS",
+      "O",
+      "O"
+    ]
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "sentence_id": "1_Facing-new-oil-glut-Saudis-avoid-1980s-mistakes-to-halt-price-slide_19_aug2",
+    "words": [
+      "Riyadh",
+      "this",
+      "time",
+      "wants",
+      "to",
+      "forestall",
+      "a",
+      "price",
+      "drop",
+      "without",
+      "affecting",
+      "production",
+      "levels",
+      "or",
+      "market",
+      "share",
+      "."
+    ],
+    "sentence": "Riyadh this time wants to forestall a price drop without affecting production levels or market share .",
+    "start": 3576,
+    "end": 3681,
+    "pos-tags": [
+      "NNP",
+      "DT",
+      "NN",
+      "VBZ",
+      "TO",
+      "VB",
+      "DT",
+      "NN",
+      "NN",
+      "IN",
+      "VBG",
+      "NN",
+      "NNS",
+      "CC",
+      "NN",
+      "NN",
+      "."
+    ],
+    "lemma": [
+      "Riyadh",
+      "this",
+      "time",
+      "want",
+      "to",
+      "forestall",
+      "a",
+      "price",
+      "drop",
+      "without",
+      "sacrifice",
+      "production",
+      "level",
+      "or",
+      "market",
+      "share",
+      "."
+    ],
+    "ner": [
+      "CITY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=3/gov=-1",
+      "nsubj/dep=0/gov=3",
+      "nsubj:xsubj/dep=0/gov=5",
+      "det/dep=1/gov=2",
+      "nmod:tmod/dep=2/gov=3",
+      "mark/dep=4/gov=5",
+      "xcomp/dep=5/gov=3",
+      "det/dep=6/gov=8",
+      "compound/dep=7/gov=8",
+      "dobj/dep=8/gov=5",
+      "mark/dep=9/gov=10",
+      "advcl:without/dep=10/gov=5",
+      "compound/dep=11/gov=12",
+      "dobj/dep=12/gov=10",
+      "cc/dep=13/gov=12",
+      "compound/dep=14/gov=15",
+      "dobj/dep=15/gov=10",
+      "conj:or/dep=15/gov=12",
+      "punct/dep=16/gov=3"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "price",
+        "start": 7,
+        "end": 8,
+        "entity-type": "Financial_attribute",
+        "standoff_id": 70
+      },
+      {
+        "text": "production",
+        "start": 11,
+        "end": 12,
+        "entity-type": "Financial_attribute",
+        "standoff_id": 173
+      },
+      {
+        "text": "market",
+        "start": 14,
+        "end": 15,
+        "entity-type": "Economic_item",
+        "standoff_id": 174
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "1_Facing-new-oil-glut-Saudis-avoid-1980s-mistakes-to-halt-price-slide_E23_aug2",
+        "event_type": "Movement-down-loss",
+        "polarity": "Negative",
+        "modality": "Other",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 8,
+          "end": 9,
+          "text": "drop",
+          "standoff_id": 69
+        },
+        "arguments": [
+          {
+            "start": 7,
+            "end": 8,
+            "role": "Attribute",
+            "entity-type": "Financial_attribute",
+            "text": "price",
+            "standoff_id": 70
+          }
+        ],
+        "polarity_cue": {
+          "start": 5,
+          "end": 6,
+          "text": "forestall",
+          "standoff_id": 148
+        },
+        "modality_cue": {
+          "start": 3,
+          "end": 4,
+          "text": "wants",
+          "standoff_id": 149
+        }
+      }
+    ],
+    "event-event-relations": [],
+    "nominal-entity": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "FINANCIAL_ATTRIBUTE",
+      "MOVEMENT-DOWN-LOSS",
+      "O",
+      "O",
+      "FINANCIAL_ATTRIBUTE",
+      "O",
+      "O",
+      "ECONOMIC_ITEM",
+      "O",
+      "O"
+    ],
+    "combined_entity": [
+      "CITY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "FINANCIAL_ATTRIBUTE",
+      "MOVEMENT-DOWN-LOSS",
+      "O",
+      "O",
+      "FINANCIAL_ATTRIBUTE",
+      "O",
+      "O",
+      "ECONOMIC_ITEM",
+      "O",
+      "O"
+    ]
+  }]

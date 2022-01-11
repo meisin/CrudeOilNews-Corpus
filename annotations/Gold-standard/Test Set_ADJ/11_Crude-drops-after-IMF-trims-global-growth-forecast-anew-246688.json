@@ -1,0 +1,3116 @@
+[
+  {
+    "sentence_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688.txt_0",
+    "words": [
+      "Crude",
+      "drops",
+      "after",
+      "IMF",
+      "trims",
+      "global",
+      "growth",
+      "forecast",
+      "anew",
+      "."
+    ],
+    "sentence": "Crude drops after IMF trims global growth forecast anew .",
+    "pos-tags": [
+      "JJ",
+      "NNS",
+      "IN",
+      "NNP",
+      "NNS",
+      "JJ",
+      "NN",
+      "NN",
+      "RB",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=1/gov=-1",
+      "amod/dep=0/gov=1",
+      "case/dep=2/gov=4",
+      "compound/dep=3/gov=4",
+      "nmod:after/dep=4/gov=1",
+      "amod/dep=5/gov=7",
+      "compound/dep=6/gov=7",
+      "dep/dep=7/gov=4",
+      "advmod/dep=8/gov=1",
+      "punct/dep=9/gov=1"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Crude",
+        "start": 0,
+        "end": 1,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "IMF",
+        "start": 3,
+        "end": 4,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "global",
+        "start": 5,
+        "end": 6,
+        "entity-type": "LOCATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "growth",
+        "start": 6,
+        "end": 7,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "forecast",
+        "start": 7,
+        "end": 8,
+        "entity-type": "FORECAST_TARGET",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E1",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 1,
+          "end": 2,
+          "text": "drops",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 0,
+            "end": 1,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Crude",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E2",
+        "event_type": "CAUSE-MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 4,
+          "end": 5,
+          "text": "trims",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 3,
+            "end": 4,
+            "role": "FORECASTER",
+            "entity-type": "ORGANIZATION",
+            "text": "IMF",
+            "standoff_id": 0
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "role": "TYPE",
+            "entity-type": "LOCATION",
+            "text": "global",
+            "standoff_id": 0
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "role": "ITEM",
+            "entity-type": "ECONOMIC_ITEM",
+            "text": "growth",
+            "standoff_id": 0
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "role": "FORECAST",
+            "entity-type": "FORECAST_TARGET",
+            "text": "forecast",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": [
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_R0",
+        "cause": {
+          "event_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E2",
+          "start": 4,
+          "end": 5,
+          "event_type": "CAUSE-MOVEMENT-DOWN-LOSS"
+        },
+        "effect": {
+          "event_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E1",
+          "start": 1,
+          "end": 2,
+          "event_type": "MOVEMENT-DOWN-LOSS"
+        }
+      }
+    ]
+  },
+  {
+    "sentence_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688.txt_1",
+    "words": [
+      "https://www.investing.com/news/commodities-news/11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688",
+      "."
+    ],
+    "sentence": "https://www.investing.com/news/commodities-news/11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688 .",
+    "pos-tags": [
+      "NN",
+      "."
+    ],
+    "ner": [
+      "URL",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=0/gov=-1",
+      "punct/dep=1/gov=0"
+    ],
+    "golden-entity-mentions": [],
+    "golden-event-mentions": [],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688.txt_2",
+    "words": [
+      "Investing.com",
+      "-",
+      "Oil",
+      "prices",
+      "fell",
+      "on",
+      "Wednesday",
+      "after",
+      "the",
+      "International",
+      "Monetary",
+      "Fund",
+      "cut",
+      "its",
+      "global",
+      "growth",
+      "forecast",
+      "for",
+      "2013",
+      ",",
+      "which",
+      "spooked",
+      "investors",
+      "with",
+      "fears",
+      "that",
+      "a",
+      "slower",
+      "global",
+      "economy",
+      "will",
+      "demand",
+      "less",
+      "fuels",
+      "and",
+      "energy",
+      "than",
+      "once",
+      "anticipated",
+      "."
+    ],
+    "sentence": "Investing.com - Oil prices fell on Wednesday after the International Monetary Fund cut its global growth forecast for 2013 , which spooked investors with fears that a slower global economy will demand less fuels and energy than once anticipated .",
+    "pos-tags": [
+      "NNP",
+      ":",
+      "NN",
+      "NNS",
+      "VBD",
+      "IN",
+      "NNP",
+      "IN",
+      "DT",
+      "NNP",
+      "NNP",
+      "NNP",
+      "VBD",
+      "PRP$",
+      "JJ",
+      "NN",
+      "NN",
+      "IN",
+      "CD",
+      ",",
+      "WDT",
+      "VBD",
+      "NNS",
+      "IN",
+      "NNS",
+      "IN",
+      "DT",
+      "JJR",
+      "JJ",
+      "NN",
+      "MD",
+      "VB",
+      "JJR",
+      "NNS",
+      "CC",
+      "NN",
+      "IN",
+      "RB",
+      "VBN",
+      "."
+    ],
+    "ner": [
+      "URL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=0/gov=-1",
+      "punct/dep=1/gov=0",
+      "compound/dep=2/gov=3",
+      "nsubj/dep=3/gov=4",
+      "parataxis/dep=4/gov=0",
+      "case/dep=5/gov=6",
+      "nmod:on/dep=6/gov=4",
+      "mark/dep=7/gov=12",
+      "det/dep=8/gov=11",
+      "compound/dep=9/gov=11",
+      "compound/dep=10/gov=11",
+      "nsubj/dep=11/gov=12",
+      "advcl:after/dep=12/gov=4",
+      "nmod:poss/dep=13/gov=16",
+      "amod/dep=14/gov=16",
+      "compound/dep=15/gov=16",
+      "dobj/dep=16/gov=12",
+      "case/dep=17/gov=18",
+      "nmod:for/dep=18/gov=12",
+      "nsubj/dep=18/gov=21",
+      "punct/dep=19/gov=18",
+      "ref/dep=20/gov=18",
+      "acl:relcl/dep=21/gov=18",
+      "dobj/dep=22/gov=21",
+      "case/dep=23/gov=24",
+      "nmod:with/dep=24/gov=21",
+      "mark/dep=25/gov=31",
+      "det/dep=26/gov=29",
+      "amod/dep=27/gov=29",
+      "amod/dep=28/gov=29",
+      "nsubj/dep=29/gov=31",
+      "aux/dep=30/gov=31",
+      "ccomp/dep=31/gov=21",
+      "amod/dep=32/gov=33",
+      "dobj/dep=33/gov=31",
+      "cc/dep=34/gov=33",
+      "dobj/dep=35/gov=31",
+      "conj:and/dep=35/gov=33",
+      "case/dep=36/gov=37",
+      "advmod/dep=37/gov=38",
+      "amod/dep=38/gov=33",
+      "punct/dep=39/gov=0"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Oil",
+        "start": 2,
+        "end": 3,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "prices",
+        "start": 3,
+        "end": 4,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "Wednesday",
+        "start": 6,
+        "end": 7,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "International Monetary Fund",
+        "start": 9,
+        "end": 12,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "global",
+        "start": 14,
+        "end": 15,
+        "entity-type": "LOCATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "growth",
+        "start": 15,
+        "end": 16,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "forecast",
+        "start": 16,
+        "end": 17,
+        "entity-type": "FORECAST_TARGET",
+        "standoff_id": 0
+      },
+      {
+        "text": "2013",
+        "start": 18,
+        "end": 19,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "global",
+        "start": 28,
+        "end": 29,
+        "entity-type": "LOCATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "economy",
+        "start": 29,
+        "end": 30,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "demand",
+        "start": 31,
+        "end": 32,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "fuels",
+        "start": 33,
+        "end": 34,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "energy",
+        "start": 35,
+        "end": 36,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "once",
+        "start": 37,
+        "end": 38,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E3",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 4,
+          "end": 5,
+          "text": "fell",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 2,
+            "end": 3,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Oil",
+            "standoff_id": 0
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "prices",
+            "standoff_id": 0
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "Wednesday",
+            "standoff_id": 0
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "role": "TYPE",
+            "entity-type": "ORGANIZATION",
+            "text": "International Monetary Fund",
+            "standoff_id": 0
+          },
+          {
+            "start": 14,
+            "end": 15,
+            "role": "TYPE",
+            "entity-type": "LOCATION",
+            "text": "global",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E4",
+        "event_type": "CAUSE-MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 12,
+          "end": 13,
+          "text": "cut",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 9,
+            "end": 12,
+            "role": "FORECASTER",
+            "entity-type": "ORGANIZATION",
+            "text": "International Monetary Fund",
+            "standoff_id": 0
+          },
+          {
+            "start": 14,
+            "end": 15,
+            "role": "TYPE",
+            "entity-type": "LOCATION",
+            "text": "global",
+            "standoff_id": 0
+          },
+          {
+            "start": 15,
+            "end": 16,
+            "role": "ITEM",
+            "entity-type": "ECONOMIC_ITEM",
+            "text": "growth",
+            "standoff_id": 0
+          },
+          {
+            "start": 16,
+            "end": 17,
+            "role": "FORECAST",
+            "entity-type": "FORECAST_TARGET",
+            "text": "forecast",
+            "standoff_id": 0
+          },
+          {
+            "start": 18,
+            "end": 19,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "2013",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E5",
+        "event_type": "NEGATIVE_SENTIMENT",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 24,
+          "end": 25,
+          "text": "fears",
+          "standoff_id": 0
+        },
+        "arguments": []
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E6",
+        "event_type": "SLOW-WEAK",
+        "polarity": "POSITIVE",
+        "modality": "OTHER",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 27,
+          "end": 28,
+          "text": "slower",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 28,
+            "end": 29,
+            "role": "TYPE",
+            "entity-type": "LOCATION",
+            "text": "global",
+            "standoff_id": 0
+          },
+          {
+            "start": 29,
+            "end": 30,
+            "role": "ITEM",
+            "entity-type": "ECONOMIC_ITEM",
+            "text": "economy",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E7",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "OTHER",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 32,
+          "end": 33,
+          "text": "less",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 33,
+            "end": 34,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "fuels",
+            "standoff_id": 0
+          },
+		  {
+			"start": 31,
+			"end": 32,
+			"role": "ATTRIBUTE", 
+			"entity-type": "FINANCIAL_ATTRIBUTE",
+			"text": "demand",
+			"standoff_id": 0
+		  }
+        ]
+      }
+    ],
+    "event-event-relations": [
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_R1",
+        "cause": {
+          "event_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E6",
+          "start": 27,
+          "end": 28,
+          "event_type": "SLOW-WEAK"
+        },
+        "effect": {
+          "event_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E7",
+          "start": 32,
+          "end": 33,
+          "event_type": "MOVEMENT-DOWN-LOSS"
+        }
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_R2",
+        "cause": {
+          "event_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E7",
+          "start": 32,
+          "end": 33,
+          "event_type": "MOVEMENT-DOWN-LOSS"
+        },
+        "effect": {
+          "event_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E3",
+          "start": 4,
+          "end": 5,
+          "event_type": "MOVEMENT-DOWN-LOSS"
+        }
+      }
+    ]
+  },
+  {
+    "sentence_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688.txt_3",
+    "words": [
+      "U.S.",
+      "inventory",
+      "data",
+      "also",
+      "pushed",
+      "down",
+      "prices",
+      "."
+    ],
+    "sentence": "U.S. inventory data also pushed down prices .",
+    "pos-tags": [
+      "NNP",
+      "NN",
+      "NNS",
+      "RB",
+      "VBD",
+      "RP",
+      "NNS",
+      "."
+    ],
+    "ner": [
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=4/gov=-1",
+      "compound/dep=0/gov=2",
+      "compound/dep=1/gov=2",
+      "nsubj/dep=2/gov=4",
+      "advmod/dep=3/gov=4",
+      "compound:prt/dep=5/gov=4",
+      "dobj/dep=6/gov=4",
+      "punct/dep=7/gov=4"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "U.S.",
+        "start": 0,
+        "end": 1,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "inventory",
+        "start": 1,
+        "end": 2,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "prices",
+        "start": 6,
+        "end": 7,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E8",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 5,
+          "end": 6,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 6,
+            "end": 7,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "prices",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688.txt_4",
+    "words": [
+      "On",
+      "the",
+      "New",
+      "York",
+      "Mercantile",
+      "Exchange",
+      ",",
+      "light",
+      "sweet",
+      "crude",
+      "futures",
+      "for",
+      "delivery",
+      "in",
+      "June",
+      "traded",
+      "down",
+      "2.24",
+      "%",
+      "at",
+      "USD87",
+      ".04",
+      "a",
+      "barrel",
+      "on",
+      "Wednesday",
+      ",",
+      "off",
+      "from",
+      "a",
+      "session",
+      "high",
+      "of",
+      "USD89",
+      ".36",
+      "and",
+      "up",
+      "from",
+      "an",
+      "earlier",
+      "session",
+      "low",
+      "of",
+      "USD86",
+      ".42",
+      "The",
+      "IMF",
+      "earlier",
+      "said",
+      "it",
+      "trimmed",
+      "its",
+      "2013",
+      "world",
+      "economic",
+      "growth",
+      "forecast",
+      "to",
+      "3.3",
+      "%",
+      ",",
+      "down",
+      "from",
+      "a",
+      "January",
+      "projection",
+      "of",
+      "3.5",
+      "%",
+      ",",
+      "while",
+      "the",
+      "multilateral",
+      "lending",
+      "institution",
+      "'s",
+      "2014",
+      "growth",
+      "forecast",
+      "fell",
+      "to",
+      "4.0",
+      "%",
+      "from",
+      "4.1",
+      "%",
+      "."
+    ],
+    "sentence": "On the New York Mercantile Exchange , light sweet crude futures for delivery in June traded down 2.24 % at USD87 .04 a barrel on Wednesday , off from a session high of USD89 .36 and up from an earlier session low of USD86 .42 The IMF earlier said it trimmed its 2013 world economic growth forecast to 3.3 % , down from a January projection of 3.5 % , while the multilateral lending institution 's 2014 growth forecast fell to 4.0 % from 4.1 % .",
+    "pos-tags": [
+      "IN",
+      "DT",
+      "NNP",
+      "NNP",
+      "NNP",
+      "NNP",
+      ",",
+      "JJ",
+      "JJ",
+      "NN",
+      "NNS",
+      "IN",
+      "NN",
+      "IN",
+      "NNP",
+      "VBD",
+      "RP",
+      "CD",
+      "NN",
+      "IN",
+      "NN",
+      "CD",
+      "DT",
+      "NN",
+      "IN",
+      "NNP",
+      ",",
+      "RB",
+      "IN",
+      "DT",
+      "NN",
+      "JJ",
+      "IN",
+      "NN",
+      "CD",
+      "CC",
+      "RB",
+      "IN",
+      "DT",
+      "JJR",
+      "NN",
+      "JJ",
+      "IN",
+      "NN",
+      "CD",
+      "DT",
+      "NNP",
+      "JJR",
+      "VBD",
+      "PRP",
+      "VBD",
+      "PRP$",
+      "CD",
+      "NN",
+      "JJ",
+      "NN",
+      "NN",
+      "TO",
+      "CD",
+      "NN",
+      ",",
+      "RB",
+      "IN",
+      "DT",
+      "NNP",
+      "NN",
+      "IN",
+      "CD",
+      "NN",
+      ",",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "NN",
+      "POS",
+      "CD",
+      "NN",
+      "NN",
+      "VBD",
+      "TO",
+      "CD",
+      "NN",
+      "IN",
+      "CD",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=15/gov=-1",
+      "case/dep=0/gov=5",
+      "det/dep=1/gov=5",
+      "compound/dep=2/gov=5",
+      "compound/dep=3/gov=5",
+      "compound/dep=4/gov=5",
+      "nmod:on/dep=5/gov=15",
+      "punct/dep=6/gov=15",
+      "amod/dep=7/gov=10",
+      "amod/dep=8/gov=10",
+      "compound/dep=9/gov=10",
+      "nsubj/dep=10/gov=15",
+      "case/dep=11/gov=12",
+      "nmod:for/dep=12/gov=10",
+      "case/dep=13/gov=14",
+      "nmod:in/dep=14/gov=12",
+      "compound:prt/dep=16/gov=15",
+      "nummod/dep=17/gov=18",
+      "dobj/dep=18/gov=15",
+      "case/dep=19/gov=20",
+      "nmod:at/dep=20/gov=15",
+      "nummod/dep=21/gov=20",
+      "det/dep=22/gov=23",
+      "dep/dep=23/gov=20",
+      "case/dep=24/gov=25",
+      "nmod:on/dep=25/gov=15",
+      "punct/dep=26/gov=15",
+      "advmod/dep=27/gov=30",
+      "case/dep=28/gov=30",
+      "det/dep=29/gov=30",
+      "nmod:from/dep=30/gov=15",
+      "amod/dep=31/gov=30",
+      "case/dep=32/gov=33",
+      "nmod:of/dep=33/gov=31",
+      "nummod/dep=34/gov=33",
+      "cc/dep=35/gov=31",
+      "advmod/dep=36/gov=41",
+      "case/dep=37/gov=40",
+      "det/dep=38/gov=40",
+      "amod/dep=39/gov=40",
+      "nmod:from/dep=40/gov=36",
+      "amod/dep=41/gov=30",
+      "conj:and/dep=41/gov=31",
+      "case/dep=42/gov=43",
+      "nmod:of/dep=43/gov=30",
+      "nummod/dep=44/gov=43",
+      "det/dep=45/gov=46",
+      "nsubj/dep=46/gov=48",
+      "advmod/dep=47/gov=48",
+      "acl:relcl/dep=48/gov=30",
+      "nsubj/dep=49/gov=50",
+      "ccomp/dep=50/gov=48",
+      "nmod:poss/dep=51/gov=56",
+      "nummod/dep=52/gov=56",
+      "compound/dep=53/gov=56",
+      "amod/dep=54/gov=56",
+      "compound/dep=55/gov=56",
+      "dobj/dep=56/gov=50",
+      "case/dep=57/gov=59",
+      "nummod/dep=58/gov=59",
+      "nmod:to/dep=59/gov=50",
+      "punct/dep=60/gov=50",
+      "advmod/dep=61/gov=50",
+      "case/dep=62/gov=65",
+      "det/dep=63/gov=65",
+      "compound/dep=64/gov=65",
+      "nmod:from/dep=65/gov=61",
+      "case/dep=66/gov=68",
+      "nummod/dep=67/gov=68",
+      "nmod:of/dep=68/gov=65",
+      "punct/dep=69/gov=50",
+      "mark/dep=70/gov=79",
+      "det/dep=71/gov=74",
+      "amod/dep=72/gov=74",
+      "compound/dep=73/gov=74",
+      "nmod:poss/dep=74/gov=78",
+      "case/dep=75/gov=74",
+      "nummod/dep=76/gov=78",
+      "compound/dep=77/gov=78",
+      "nsubj/dep=78/gov=79",
+      "advcl:while/dep=79/gov=50",
+      "case/dep=80/gov=82",
+      "nummod/dep=81/gov=82",
+      "nmod:to/dep=82/gov=79",
+      "case/dep=83/gov=85",
+      "nummod/dep=84/gov=85",
+      "nmod:from/dep=85/gov=79",
+      "punct/dep=86/gov=15"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "New York Mercantile Exchange",
+        "start": 2,
+        "end": 6,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "light sweet crude",
+        "start": 7,
+        "end": 10,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "futures",
+        "start": 10,
+        "end": 11,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "June",
+        "start": 14,
+        "end": 15,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "2.24 %",
+        "start": 17,
+        "end": 19,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "USD87 .04 a barrel",
+        "start": 20,
+        "end": 24,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "Wednesday",
+        "start": 25,
+        "end": 26,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "USD89 .36",
+        "start": 33,
+        "end": 35,
+        "entity-type": "MONEY",
+        "standoff_id": 0
+      },
+      {
+        "text": "USD86 .42",
+        "start": 43,
+        "end": 45,
+        "entity-type": "MONEY",
+        "standoff_id": 0
+      },
+      {
+        "text": "IMF",
+        "start": 46,
+        "end": 47,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "2013",
+        "start": 52,
+        "end": 53,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "world",
+        "start": 53,
+        "end": 54,
+        "entity-type": "LOCATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "economic growth",
+        "start": 54,
+        "end": 56,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "forecast",
+        "start": 56,
+        "end": 57,
+        "entity-type": "FORECAST_TARGET",
+        "standoff_id": 0
+      },
+      {
+        "text": "3.3 %",
+        "start": 58,
+        "end": 60,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "January",
+        "start": 64,
+        "end": 65,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "projection",
+        "start": 65,
+        "end": 66,
+        "entity-type": "FORECAST_TARGET",
+        "standoff_id": 0
+      },
+      {
+        "text": "3.5 %",
+        "start": 67,
+        "end": 69,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "multilateral lending institution",
+        "start": 72,
+        "end": 75,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "2014",
+        "start": 76,
+        "end": 77,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "growth",
+        "start": 77,
+        "end": 78,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "forecast",
+        "start": 78,
+        "end": 79,
+        "entity-type": "FORECAST_TARGET",
+        "standoff_id": 0
+      },
+      {
+        "text": "4.0 %",
+        "start": 81,
+        "end": 83,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "4.1 %",
+        "start": 84,
+        "end": 86,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E9",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 16,
+          "end": 17,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 2,
+            "end": 6,
+            "role": "PLACE",
+            "entity-type": "ORGANIZATION",
+            "text": "New York Mercantile Exchange",
+            "standoff_id": 0
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "light sweet crude",
+            "standoff_id": 0
+          },
+          {
+            "start": 10,
+            "end": 11,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "futures",
+            "standoff_id": 0
+          },
+          {
+            "start": 14,
+            "end": 15,
+            "role": "TYPE",
+            "entity-type": "DATE",
+            "text": "June",
+            "standoff_id": 0
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "2.24 %",
+            "standoff_id": 0
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "USD87 .04 a barrel",
+            "standoff_id": 0
+          },
+          {
+            "start": 25,
+            "end": 26,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "Wednesday",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E10",
+        "event_type": "POSITION-HIGH",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 31,
+          "end": 32,
+          "text": "high",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 33,
+            "end": 35,
+            "role": "FINAL_VALUE",
+            "entity-type": "MONEY",
+            "text": "USD89 .36",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E11",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 36,
+          "end": 37,
+          "text": "up",
+          "standoff_id": 0
+        },
+        "arguments": []
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E12",
+        "event_type": "POSITION-LOW",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 41,
+          "end": 42,
+          "text": "low",
+          "standoff_id": 0
+        },
+        "arguments": [
+		  {
+			"start": 43,
+			"end": 45,
+			"role": "FINAL_VALUE",
+			"entity-type": "MONEY",
+			"text": "USD86 .42",
+			"standoff_id": 0
+		  }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E13",
+        "event_type": "CAUSE-MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 50,
+          "end": 51,
+          "text": "trimmed",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 46,
+            "end": 47,
+            "role": "FORECASTER",
+            "entity-type": "ORGANIZATION",
+            "text": "IMF",
+            "standoff_id": 0
+          },
+          {
+            "start": 52,
+            "end": 53,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "2013",
+            "standoff_id": 0
+          },
+          {
+            "start": 53,
+            "end": 54,
+            "role": "TYPE",
+            "entity-type": "LOCATION",
+            "text": "world",
+            "standoff_id": 0
+          },
+          {
+            "start": 54,
+            "end": 56,
+            "role": "ITEM",
+            "entity-type": "ECONOMIC_ITEM",
+            "text": "economic growth",
+            "standoff_id": 0
+          },
+          {
+            "start": 56,
+            "end": 57,
+            "role": "FORECAST",
+            "entity-type": "FORECAST_TARGET",
+            "text": "forecast",
+            "standoff_id": 0
+          },
+          {
+            "start": 58,
+            "end": 60,
+            "role": "FINAL_VALUE",
+            "entity-type": "PERCENTAGE",
+            "text": "3.3 %",
+            "standoff_id": 0
+          },
+          {
+            "start": 64,
+            "end": 65,
+            "role": "TYPE",
+            "entity-type": "DATE",
+            "text": "January",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E14",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 61,
+          "end": 62,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 53,
+            "end": 54,
+            "role": "TYPE",
+            "entity-type": "LOCATION",
+            "text": "world",
+            "standoff_id": 0
+          },
+          {
+            "start": 54,
+            "end": 56,
+            "role": "ITEM",
+            "entity-type": "ECONOMIC_ITEM",
+            "text": "economic growth",
+            "standoff_id": 0
+          },
+          {
+            "start": 64,
+            "end": 65,
+            "role": "TYPE",
+            "entity-type": "DATE",
+            "text": "January",
+            "standoff_id": 0
+          },
+          {
+            "start": 65,
+            "end": 66,
+            "role": "FORECAST",
+            "entity-type": "FORECAST_TARGET",
+            "text": "projection",
+            "standoff_id": 0
+          },
+          {
+            "start": 67,
+            "end": 69,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "3.5 %",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E15",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 79,
+          "end": 80,
+          "text": "fell",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 72,
+            "end": 75,
+            "role": "FORECASTER",
+            "entity-type": "ORGANIZATION",
+            "text": "multilateral lending institution",
+            "standoff_id": 0
+          },
+          {
+            "start": 76,
+            "end": 77,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "2014",
+            "standoff_id": 0
+          },
+          {
+            "start": 77,
+            "end": 78,
+            "role": "ITEM",
+            "entity-type": "ECONOMIC_ITEM",
+            "text": "growth",
+            "standoff_id": 0
+          },
+          {
+            "start": 78,
+            "end": 79,
+            "role": "TYPE",
+            "entity-type": "FORECAST_TARGET",
+            "text": "forecast",
+            "standoff_id": 0
+          },
+          {
+            "start": 81,
+            "end": 83,
+            "role": "FINAL_VALUE",
+            "entity-type": "PERCENTAGE",
+            "text": "4.0 %",
+            "standoff_id": 0
+          },
+          {
+            "start": 84,
+            "end": 86,
+            "role": "INITIAL_VALUE",
+            "entity-type": "PERCENTAGE",
+            "text": "4.1 %",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688.txt_5",
+    "words": [
+      "The",
+      "downward",
+      "revisions",
+      "came",
+      "just",
+      "days",
+      "in",
+      "wake",
+      "of",
+      "Chinese",
+      "growth",
+      "and",
+      "industrial",
+      "output",
+      "data",
+      "that",
+      "fell",
+      "short",
+      "of",
+      "market",
+      "expectations",
+      "as",
+      "did",
+      "similar",
+      "numbers",
+      "out",
+      "of",
+      "the",
+      "U.S.",
+      ",",
+      "which",
+      "fanned",
+      "fears",
+      "that",
+      "the",
+      "global",
+      "economy",
+      "still",
+      "battles",
+      "headwinds",
+      "."
+    ],
+    "sentence": "The downward revisions came just days in wake of Chinese growth and industrial output data that fell short of market expectations as did similar numbers out of the U.S. , which fanned fears that the global economy still battles headwinds .",
+    "pos-tags": [
+      "DT",
+      "JJ",
+      "NNS",
+      "VBD",
+      "RB",
+      "NNS",
+      "IN",
+      "NN",
+      "IN",
+      "JJ",
+      "NN",
+      "CC",
+      "JJ",
+      "NN",
+      "NNS",
+      "WDT",
+      "VBD",
+      "JJ",
+      "IN",
+      "NN",
+      "NNS",
+      "IN",
+      "VBD",
+      "JJ",
+      "NNS",
+      "IN",
+      "IN",
+      "DT",
+      "NNP",
+      ",",
+      "WDT",
+      "VBD",
+      "NNS",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "RB",
+      "VBZ",
+      "NNS",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DURATION",
+      "O",
+      "O",
+      "O",
+      "NATIONALITY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=3/gov=-1",
+      "det/dep=0/gov=2",
+      "amod/dep=1/gov=2",
+      "nsubj/dep=2/gov=3",
+      "advmod/dep=4/gov=5",
+      "dobj/dep=5/gov=3",
+      "nsubj/dep=5/gov=16",
+      "case/dep=6/gov=7",
+      "nmod:in/dep=7/gov=5",
+      "case/dep=8/gov=10",
+      "amod/dep=9/gov=10",
+      "nmod:of/dep=10/gov=7",
+      "cc/dep=11/gov=10",
+      "amod/dep=12/gov=14",
+      "compound/dep=13/gov=14",
+      "nmod:of/dep=14/gov=7",
+      "conj:and/dep=14/gov=10",
+      "ref/dep=15/gov=5",
+      "acl:relcl/dep=16/gov=5",
+      "dobj/dep=17/gov=16",
+      "case/dep=18/gov=20",
+      "compound/dep=19/gov=20",
+      "nmod:of/dep=20/gov=17",
+      "mark/dep=21/gov=22",
+      "advcl:as/dep=22/gov=16",
+      "amod/dep=23/gov=24",
+      "dobj/dep=24/gov=22",
+      "case/dep=25/gov=28",
+      "mwe/dep=26/gov=25",
+      "det/dep=27/gov=28",
+      "nmod:out_of/dep=28/gov=22",
+      "nsubj/dep=28/gov=31",
+      "punct/dep=29/gov=28",
+      "ref/dep=30/gov=28",
+      "acl:relcl/dep=31/gov=28",
+      "dobj/dep=32/gov=31",
+      "mark/dep=33/gov=38",
+      "det/dep=34/gov=36",
+      "amod/dep=35/gov=36",
+      "nsubj/dep=36/gov=38",
+      "advmod/dep=37/gov=38",
+      "ccomp/dep=38/gov=31",
+      "dobj/dep=39/gov=38",
+      "punct/dep=40/gov=3"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "days",
+        "start": 5,
+        "end": 6,
+        "entity-type": "DURATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "Chinese",
+        "start": 9,
+        "end": 10,
+        "entity-type": "NATIONALITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "growth",
+        "start": 10,
+        "end": 11,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "output",
+        "start": 13,
+        "end": 14,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "market",
+        "start": 19,
+        "end": 20,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "U.S.",
+        "start": 28,
+        "end": 29,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "global",
+        "start": 35,
+        "end": 36,
+        "entity-type": "LOCATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "economy",
+        "start": 36,
+        "end": 37,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+	  {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E01",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 1,
+          "end": 2,
+          "text": "downward",
+          "standoff_id": 0
+        },
+        "arguments": []
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E16",
+        "event_type": "NEGATIVE_SENTIMENT",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "INTENSIFIED",
+        "trigger": {
+          "start": 32,
+          "end": 33,
+          "text": "fears",
+          "standoff_id": 0
+        },
+        "arguments": []
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688.txt_6",
+    "words": [
+      "Elsewhere",
+      "in",
+      "the",
+      "U.S.",
+      ",",
+      "the",
+      "Energy",
+      "Information",
+      "Administration",
+      "said",
+      "in",
+      "its",
+      "weekly",
+      "report",
+      "that",
+      "U.S.",
+      "crude",
+      "oil",
+      "inventories",
+      "fell",
+      "by",
+      "1.233",
+      "million",
+      "barrels",
+      "last",
+      "week",
+      "following",
+      "a",
+      "gain",
+      "of",
+      "250,000",
+      "in",
+      "the",
+      "preceding",
+      "week",
+      "."
+    ],
+    "sentence": "Elsewhere in the U.S. , the Energy Information Administration said in its weekly report that U.S. crude oil inventories fell by 1.233 million barrels last week following a gain of 250,000 in the preceding week .",
+    "pos-tags": [
+      "RB",
+      "IN",
+      "DT",
+      "NNP",
+      ",",
+      "DT",
+      "NNP",
+      "NNP",
+      "NNP",
+      "VBD",
+      "IN",
+      "PRP$",
+      "JJ",
+      "NN",
+      "WDT",
+      "NNP",
+      "NN",
+      "NN",
+      "NNS",
+      "VBD",
+      "IN",
+      "CD",
+      "CD",
+      "NNS",
+      "JJ",
+      "NN",
+      "VBG",
+      "DT",
+      "NN",
+      "IN",
+      "CD",
+      "IN",
+      "DT",
+      "VBG",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "SET",
+      "O",
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "NUMBER",
+      "O",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "O",
+      "O",
+      "DURATION",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=9/gov=-1",
+      "advmod/dep=0/gov=3",
+      "case/dep=1/gov=3",
+      "det/dep=2/gov=3",
+      "nmod:in/dep=3/gov=9",
+      "punct/dep=4/gov=9",
+      "det/dep=5/gov=8",
+      "compound/dep=6/gov=8",
+      "compound/dep=7/gov=8",
+      "nsubj/dep=8/gov=9",
+      "case/dep=10/gov=13",
+      "nmod:poss/dep=11/gov=13",
+      "amod/dep=12/gov=13",
+      "nmod:in/dep=13/gov=9",
+      "dobj/dep=14/gov=19",
+      "compound/dep=15/gov=18",
+      "compound/dep=16/gov=18",
+      "compound/dep=17/gov=18",
+      "nsubj/dep=18/gov=19",
+      "ccomp/dep=19/gov=9",
+      "case/dep=20/gov=23",
+      "compound/dep=21/gov=22",
+      "nummod/dep=22/gov=23",
+      "nmod:by/dep=23/gov=19",
+      "amod/dep=24/gov=25",
+      "nmod:tmod/dep=25/gov=19",
+      "case/dep=26/gov=28",
+      "det/dep=27/gov=28",
+      "nmod:following/dep=28/gov=19",
+      "case/dep=29/gov=30",
+      "nmod:of/dep=30/gov=28",
+      "case/dep=31/gov=34",
+      "det/dep=32/gov=34",
+      "amod/dep=33/gov=34",
+      "nmod:in/dep=34/gov=30",
+      "punct/dep=35/gov=9"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "U.S.",
+        "start": 3,
+        "end": 4,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "Energy Information Administration",
+        "start": 6,
+        "end": 9,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "U.S.",
+        "start": 15,
+        "end": 16,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "crude oil",
+        "start": 16,
+        "end": 18,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "inventories",
+        "start": 18,
+        "end": 19,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "1.233 million barrels",
+        "start": 21,
+        "end": 24,
+        "entity-type": "QUANTITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "last week",
+        "start": 24,
+        "end": 26,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "250,000",
+        "start": 30,
+        "end": 31,
+        "entity-type": "NUMBER",
+        "standoff_id": 0
+      },
+      {
+        "text": "the preceding week",
+        "start": 32,
+        "end": 35,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E17",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 19,
+          "end": 20,
+          "text": "fell",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 6,
+            "end": 9,
+            "role": "FORECASTER",
+            "entity-type": "ORGANIZATION",
+            "text": "Energy Information Administration",
+            "standoff_id": 0
+          },
+          {
+            "start": 15,
+            "end": 16,
+            "role": "SUPPLIER_CONSUMER",
+            "entity-type": "COUNTRY",
+            "text": "U.S.",
+            "standoff_id": 0
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "crude oil",
+            "standoff_id": 0
+          },
+          {
+            "start": 18,
+            "end": 19,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "inventories",
+            "standoff_id": 0
+          },
+          {
+            "start": 21,
+            "end": 24,
+            "role": "DIFFERENCE",
+            "entity-type": "QUANTITY",
+            "text": "1.233 million barrels",
+            "standoff_id": 0
+          },
+          {
+            "start": 24,
+            "end": 26,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "last week",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E18",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 28,
+          "end": 29,
+          "text": "gain",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 24,
+            "end": 26,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "last week",
+            "standoff_id": 0
+          },
+          {
+            "start": 30,
+            "end": 31,
+            "role": "DIFFERENCE",
+            "entity-type": "NUMBER",
+            "text": "250,000",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688.txt_7",
+    "words": [
+      "Analysts",
+      "were",
+      "expecting",
+      "oil",
+      "stockpiles",
+      "to",
+      "rise",
+      "by",
+      "1.350",
+      "million",
+      "barrels",
+      "last",
+      "week",
+      ",",
+      "and",
+      "the",
+      "supply",
+      "data",
+      "fueled",
+      "the",
+      "selloff",
+      "by",
+      "confirming",
+      "fears",
+      "the",
+      "U.S.",
+      "economy",
+      "is",
+      "awash",
+      "in",
+      "crude",
+      "."
+    ],
+    "sentence": "Analysts were expecting oil stockpiles to rise by 1.350 million barrels last week , and the supply data fueled the selloff by confirming fears the U.S. economy is awash in crude .",
+    "pos-tags": [
+      "NNS",
+      "VBD",
+      "VBG",
+      "NN",
+      "NNS",
+      "TO",
+      "VB",
+      "IN",
+      "CD",
+      "CD",
+      "NNS",
+      "JJ",
+      "NN",
+      ",",
+      "CC",
+      "DT",
+      "NN",
+      "NNS",
+      "VBD",
+      "DT",
+      "NN",
+      "IN",
+      "VBG",
+      "NNS",
+      "DT",
+      "NNP",
+      "NN",
+      "VBZ",
+      "JJ",
+      "IN",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "NUMBER",
+      "O",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=2/gov=-1",
+      "nsubj/dep=0/gov=2",
+      "aux/dep=1/gov=2",
+      "compound/dep=3/gov=4",
+      "dobj/dep=4/gov=2",
+      "nsubj:xsubj/dep=4/gov=6",
+      "mark/dep=5/gov=6",
+      "xcomp/dep=6/gov=2",
+      "case/dep=7/gov=10",
+      "compound/dep=8/gov=9",
+      "nummod/dep=9/gov=10",
+      "nmod:by/dep=10/gov=6",
+      "amod/dep=11/gov=12",
+      "nmod:tmod/dep=12/gov=6",
+      "punct/dep=13/gov=2",
+      "cc/dep=14/gov=2",
+      "det/dep=15/gov=17",
+      "compound/dep=16/gov=17",
+      "nsubj/dep=17/gov=18",
+      "conj:and/dep=18/gov=2",
+      "det/dep=19/gov=20",
+      "dobj/dep=20/gov=18",
+      "case/dep=21/gov=23",
+      "amod/dep=22/gov=23",
+      "nmod:by/dep=23/gov=18",
+      "det/dep=24/gov=26",
+      "compound/dep=25/gov=26",
+      "nsubj/dep=26/gov=28",
+      "cop/dep=27/gov=28",
+      "acl:relcl/dep=28/gov=23",
+      "case/dep=29/gov=30",
+      "nmod:in/dep=30/gov=28",
+      "punct/dep=31/gov=2"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "oil",
+        "start": 3,
+        "end": 4,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "stockpiles",
+        "start": 4,
+        "end": 5,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+	  {
+        "text": "crude",
+        "start": 30,
+        "end": 31,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "1.350 million barrels",
+        "start": 8,
+        "end": 11,
+        "entity-type": "QUANTITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "last week",
+        "start": 11,
+        "end": 13,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "supply",
+        "start": 16,
+        "end": 17,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "U.S.",
+        "start": 25,
+        "end": 26,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E19",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "POSITIVE",
+        "modality": "OTHER",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 6,
+          "end": 7,
+          "text": "rise",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 3,
+            "end": 4,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "oil",
+            "standoff_id": 0
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "stockpiles",
+            "standoff_id": 0
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "role": "DIFFERENCE",
+            "entity-type": "QUANTITY",
+            "text": "1.350 million barrels",
+            "standoff_id": 0
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "last week",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E20",
+        "event_type": "NEGATIVE_SENTIMENT",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 23,
+          "end": 24,
+          "text": "fears",
+          "standoff_id": 0
+        },
+        "arguments": []
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E21",
+        "event_type": "OVERSUPPLY",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 28,
+          "end": 29,
+          "text": "awash",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 25,
+            "end": 26,
+            "role": "PLACE",
+            "entity-type": "COUNTRY",
+            "text": "U.S.",
+            "standoff_id": 0
+          },
+		  {
+			"start": 30,
+			"end": 31,
+			"role": "ITEM",
+			"entity-type": "COMMODITY",
+			"text": "crude",
+			"standoff_id": 0
+		  }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688.txt_8",
+    "words": [
+      "U.S.",
+      "gasoline",
+      "inventories",
+      ",",
+      "meanwhile",
+      ",",
+      "fell",
+      "by",
+      "633,000",
+      "barrels",
+      "after",
+      "rising",
+      "1.699",
+      "million",
+      "in",
+      "the",
+      "preceding",
+      "week",
+      "."
+    ],
+    "sentence": "U.S. gasoline inventories , meanwhile , fell by 633,000 barrels after rising 1.699 million in the preceding week .",
+    "pos-tags": [
+      "NNP",
+      "NN",
+      "NNS",
+      ",",
+      "RB",
+      ",",
+      "VBD",
+      "IN",
+      "CD",
+      "NNS",
+      "IN",
+      "VBG",
+      "CD",
+      "CD",
+      "IN",
+      "DT",
+      "VBG",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "NUMBER",
+      "O",
+      "O",
+      "O",
+      "DURATION",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=6/gov=-1",
+      "compound/dep=0/gov=2",
+      "compound/dep=1/gov=2",
+      "nsubj/dep=2/gov=6",
+      "punct/dep=3/gov=6",
+      "advmod/dep=4/gov=6",
+      "punct/dep=5/gov=6",
+      "case/dep=7/gov=9",
+      "nummod/dep=8/gov=9",
+      "nmod:by/dep=9/gov=6",
+      "mark/dep=10/gov=11",
+      "advcl:after/dep=11/gov=6",
+      "compound/dep=12/gov=13",
+      "dobj/dep=13/gov=11",
+      "case/dep=14/gov=17",
+      "det/dep=15/gov=17",
+      "amod/dep=16/gov=17",
+      "nmod:in/dep=17/gov=13",
+      "punct/dep=18/gov=6"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "U.S.",
+        "start": 0,
+        "end": 1,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "gasoline",
+        "start": 1,
+        "end": 2,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "inventories",
+        "start": 2,
+        "end": 3,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "633,000 barrels",
+        "start": 8,
+        "end": 10,
+        "entity-type": "QUANTITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "1.699 million",
+        "start": 12,
+        "end": 14,
+        "entity-type": "NUMBER",
+        "standoff_id": 0
+      },
+      {
+        "text": "the preceding week",
+        "start": 15,
+        "end": 18,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E22",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 6,
+          "end": 7,
+          "text": "fell",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 0,
+            "end": 1,
+            "role": "SUPPLIER_CONSUMER",
+            "entity-type": "COUNTRY",
+            "text": "U.S.",
+            "standoff_id": 0
+          },
+          {
+            "start": 1,
+            "end": 2,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "gasoline",
+            "standoff_id": 0
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "inventories",
+            "standoff_id": 0
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "role": "DIFFERENCE",
+            "entity-type": "QUANTITY",
+            "text": "633,000 barrels",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E23",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 11,
+          "end": 12,
+          "text": "rising",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 12,
+            "end": 14,
+            "role": "FINAL_VALUE",
+            "entity-type": "NUMBER",
+            "text": "1.699 million",
+            "standoff_id": 0
+          },
+		  {
+			"start": 15,
+			"end": 18,
+			"role": "REFERENCE_POINT_TIME",
+			"entity-type": "DATE",
+			"text": "the preceding week",
+			"standoff_id": 0
+		  }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688.txt_9",
+    "words": [
+      "Analysts",
+      "were",
+      "expecting",
+      "gasoline",
+      "inventories",
+      "to",
+      "fall",
+      "by",
+      "800,000",
+      "."
+    ],
+    "sentence": "Analysts were expecting gasoline inventories to fall by 800,000 .",
+    "pos-tags": [
+      "NNS",
+      "VBD",
+      "VBG",
+      "NN",
+      "NNS",
+      "TO",
+      "VB",
+      "IN",
+      "CD",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=2/gov=-1",
+      "nsubj/dep=0/gov=2",
+      "aux/dep=1/gov=2",
+      "compound/dep=3/gov=4",
+      "dobj/dep=4/gov=2",
+      "nsubj:xsubj/dep=4/gov=6",
+      "mark/dep=5/gov=6",
+      "xcomp/dep=6/gov=2",
+      "case/dep=7/gov=8",
+      "nmod:by/dep=8/gov=6",
+      "punct/dep=9/gov=2"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "gasoline",
+        "start": 3,
+        "end": 4,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "inventories",
+        "start": 4,
+        "end": 5,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "800,000",
+        "start": 8,
+        "end": 9,
+        "entity-type": "NUMBER",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E24",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "OTHER",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 6,
+          "end": 7,
+          "text": "fall",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 3,
+            "end": 4,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "gasoline",
+            "standoff_id": 0
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "inventories",
+            "standoff_id": 0
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "role": "DIFFERENCE",
+            "entity-type": "NUMBER",
+            "text": "800,000",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688.txt_10",
+    "words": [
+      "Elsewhere",
+      "on",
+      "the",
+      "ICE",
+      "Futures",
+      "Exchange",
+      ",",
+      "Brent",
+      "oil",
+      "futures",
+      "for",
+      "June",
+      "delivery",
+      "were",
+      "down",
+      "1.94",
+      "%",
+      "at",
+      "USD97",
+      ".97",
+      "a",
+      "barrel",
+      ",",
+      "up",
+      "USD10",
+      ".93",
+      "from",
+      "its",
+      "U.S.",
+      "counterpart",
+      "."
+    ],
+    "sentence": "Elsewhere on the ICE Futures Exchange , Brent oil futures for June delivery were down 1.94 % at USD97 .97 a barrel , up USD10 .93 from its U.S. counterpart .",
+    "pos-tags": [
+      "RB",
+      "IN",
+      "DT",
+      "NN",
+      "NNPS",
+      "NNP",
+      ",",
+      "NNP",
+      "NN",
+      "NNS",
+      "IN",
+      "NNP",
+      "NN",
+      "VBD",
+      "RB",
+      "CD",
+      "NN",
+      "IN",
+      "NN",
+      "CD",
+      "DT",
+      "NN",
+      ",",
+      "RB",
+      "CD",
+      "CD",
+      "IN",
+      "PRP$",
+      "NNP",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "NUMBER",
+      "O",
+      "O",
+      "COUNTRY",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=18/gov=-1",
+      "advmod/dep=0/gov=18",
+      "case/dep=1/gov=5",
+      "det/dep=2/gov=5",
+      "compound/dep=3/gov=5",
+      "compound/dep=4/gov=5",
+      "nmod:on/dep=5/gov=0",
+      "punct/dep=6/gov=18",
+      "compound/dep=7/gov=9",
+      "compound/dep=8/gov=9",
+      "nsubj/dep=9/gov=18",
+      "case/dep=10/gov=12",
+      "compound/dep=11/gov=12",
+      "nmod:for/dep=12/gov=9",
+      "cop/dep=13/gov=18",
+      "advmod/dep=14/gov=18",
+      "nummod/dep=15/gov=16",
+      "nmod:npmod/dep=16/gov=14",
+      "case/dep=17/gov=18",
+      "nummod/dep=19/gov=18",
+      "det/dep=20/gov=21",
+      "dep/dep=21/gov=18",
+      "punct/dep=22/gov=18",
+      "advmod/dep=23/gov=18",
+      "compound/dep=24/gov=25",
+      "nmod:npmod/dep=25/gov=23",
+      "case/dep=26/gov=29",
+      "nmod:poss/dep=27/gov=29",
+      "compound/dep=28/gov=29",
+      "nmod:from/dep=29/gov=23",
+      "punct/dep=30/gov=18"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Brent oil",
+        "start": 7,
+        "end": 9,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "futures",
+        "start": 9,
+        "end": 10,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "June",
+        "start": 11,
+        "end": 12,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "1.94 %",
+        "start": 15,
+        "end": 17,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "USD97 .97 a barrel",
+        "start": 18,
+        "end": 22,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "USD10 .93",
+        "start": 24,
+        "end": 26,
+        "entity-type": "MONEY",
+        "standoff_id": 0
+      },
+      {
+        "text": "U.S.",
+        "start": 28,
+        "end": 29,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E25",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 14,
+          "end": 15,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 7,
+            "end": 9,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Brent oil",
+            "standoff_id": 0
+          },
+          {
+            "start": 9,
+            "end": 10,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "futures",
+            "standoff_id": 0
+          },
+          {
+            "start": 11,
+            "end": 12,
+            "role": "CONTRACT_DATE",
+            "entity-type": "DATE",
+            "text": "June",
+            "standoff_id": 0
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "1.94 %",
+            "standoff_id": 0
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "USD97 .97 a barrel",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "11_Crude-drops-after-IMF-trims-global-growth-forecast-anew-246688_E26",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "POSITIVE",
+        "modality": "ASSERTED",
+        "intensity": "NEUTRAL",
+        "trigger": {
+          "start": 23,
+          "end": 24,
+          "text": "up",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 24,
+            "end": 26,
+            "role": "DIFFERENCE",
+            "entity-type": "MONEY",
+            "text": "USD10 .93",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  }
+]
