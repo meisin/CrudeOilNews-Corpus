@@ -1,6 +1,6 @@
 # Commodity News Corpus
 
-This is the repository for the dataset introduced in **"An Annotated Commodity News Corpus for Event Extraction"**(https://arxiv.org/abs/2105.08214)
+This is the repository for the dataset introduced in **"CrudeOilNews: An Annotated Crude Oil News Corpus for Event Extraction"**
 
 ### 1. Annotation
 Annotations are done using [Brat Rapid Annotation Tool](https://brat.nlplab.org/). 
