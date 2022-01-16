@@ -1,0 +1,4684 @@
+[
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_0",
+    "words": [
+      "Crude",
+      "crashes",
+      "to",
+      "fresh",
+      "3-month",
+      "lows",
+      ",",
+      "amid",
+      "surprising",
+      "inventory",
+      "build",
+      "."
+    ],
+    "sentence": "Crude crashes to fresh 3-month lows , amid surprising inventory build .",
+    "pos-tags": [
+      "JJ",
+      "NNS",
+      "TO",
+      "JJ",
+      "JJ",
+      "NNS",
+      ",",
+      "IN",
+      "JJ",
+      "NN",
+      "VB",
+      "."
+    ],
+    "ner": [
+      "O",
+      "CAUSE_OF_DEATH",
+      "O",
+      "O",
+      "DURATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=10/gov=-1",
+      "amod/dep=0/gov=1",
+      "nsubj/dep=1/gov=10",
+      "case/dep=2/gov=5",
+      "amod/dep=3/gov=5",
+      "amod/dep=4/gov=5",
+      "nmod:to/dep=5/gov=1",
+      "punct/dep=6/gov=5",
+      "case/dep=7/gov=9",
+      "amod/dep=8/gov=9",
+      "nmod:amid/dep=9/gov=5",
+      "punct/dep=11/gov=10"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Crude",
+        "start": 0,
+        "end": 1,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "3-month",
+        "start": 4,
+        "end": 5,
+        "entity-type": "DURATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "inventory",
+        "start": 9,
+        "end": 10,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E1",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 1,
+          "end": 2,
+          "text": "crashes",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 0,
+            "end": 1,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Crude",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E2",
+        "event_type": "POSITION-LOW",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 5,
+          "end": 6,
+          "text": "lows",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 4,
+            "end": 5,
+            "role": "DURATION",
+            "entity-type": "DURATION",
+            "text": "3-month",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E3",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 10,
+          "end": 11,
+          "text": "build",
+          "standoff_id": 0
+        },
+        "arguments": [      
+		{
+        
+        "start": 9,
+        "end": 10,
+		"role": "ATTRIBUTE",
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+		"text": "inventory",
+        "standoff_id": 0
+      }
+	  ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_1",
+    "words": [
+      "Jul",
+      "27",
+      ",",
+      "2016",
+      "03:22",
+      "PM",
+      "E.",
+      "https://www.investing.com/news/commodities-news/crude-crashes-to-fresh-3-month-lows,-amid-surprising-inventory-build-416969",
+      "."
+    ],
+    "sentence": "Jul 27 , 2016 03:22 PM E. https://www.investing.com/news/commodities-news/crude-crashes-to-fresh-3-month-lows,-amid-surprising-inventory-build-416969 .",
+    "pos-tags": [
+      "NNP",
+      "CD",
+      ",",
+      "CD",
+      "CD",
+      "NNP",
+      "NNP",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "DATE",
+      "DATE",
+      "DATE",
+      "DATE",
+      "TIME",
+      "TIME",
+      "O",
+      "DURATION",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=0/gov=-1",
+      "nummod/dep=1/gov=0",
+      "punct/dep=2/gov=0",
+      "nummod/dep=3/gov=0",
+      "nummod/dep=4/gov=7",
+      "compound/dep=5/gov=7",
+      "compound/dep=6/gov=7",
+      "dep/dep=7/gov=0",
+      "punct/dep=8/gov=0"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Jul 27 ,",
+        "start": 0,
+        "end": 3,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "2016",
+        "start": 3,
+        "end": 4,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_2",
+    "words": [
+      "Investing.com",
+      "--",
+      "Crude",
+      "futures",
+      "fell",
+      "sharply",
+      "on",
+      "Wednesday",
+      "to",
+      "fresh",
+      "3-month",
+      "lows",
+      ",",
+      "as",
+      "U.S.",
+      "crude",
+      "stockpiles",
+      "unexpectedly",
+      "moved",
+      "higher",
+      "last",
+      "week",
+      "defying",
+      "expectations",
+      "for",
+      "a",
+      "slight",
+      "draw",
+      "on",
+      "the",
+      "week",
+      "."
+    ],
+    "sentence": "Investing.com -- Crude futures fell sharply on Wednesday to fresh 3-month lows , as U.S. crude stockpiles unexpectedly moved higher last week defying expectations for a slight draw on the week .",
+    "pos-tags": [
+      "NNP",
+      ":",
+      "JJ",
+      "NNS",
+      "VBD",
+      "RB",
+      "IN",
+      "NNP",
+      "TO",
+      "JJ",
+      "JJ",
+      "NNS",
+      ",",
+      "IN",
+      "NNP",
+      "JJ",
+      "NNS",
+      "RB",
+      "VBD",
+      "RBR",
+      "JJ",
+      "NN",
+      "VBG",
+      "NNS",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "IN",
+      "DT",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "URL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "DURATION",
+      "O",
+      "O",
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "DATE",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=0/gov=-1",
+      "punct/dep=1/gov=0",
+      "amod/dep=2/gov=3",
+      "nsubj/dep=3/gov=4",
+      "parataxis/dep=4/gov=0",
+      "advmod/dep=5/gov=4",
+      "case/dep=6/gov=7",
+      "nmod:on/dep=7/gov=5",
+      "case/dep=8/gov=11",
+      "amod/dep=9/gov=11",
+      "amod/dep=10/gov=11",
+      "nmod:to/dep=11/gov=4",
+      "punct/dep=12/gov=4",
+      "mark/dep=13/gov=18",
+      "compound/dep=14/gov=16",
+      "amod/dep=15/gov=16",
+      "nsubj/dep=16/gov=18",
+      "advmod/dep=17/gov=18",
+      "advcl:as/dep=18/gov=4",
+      "advmod/dep=19/gov=18",
+      "amod/dep=20/gov=21",
+      "nmod:tmod/dep=21/gov=18",
+      "xcomp/dep=22/gov=18",
+      "dobj/dep=23/gov=22",
+      "case/dep=24/gov=27",
+      "det/dep=25/gov=27",
+      "amod/dep=26/gov=27",
+      "nmod:for/dep=27/gov=22",
+      "case/dep=28/gov=30",
+      "det/dep=29/gov=30",
+      "nmod:on/dep=30/gov=27",
+      "punct/dep=31/gov=0"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Crude",
+        "start": 2,
+        "end": 3,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "futures",
+        "start": 3,
+        "end": 4,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "Wednesday",
+        "start": 7,
+        "end": 8,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "3-month",
+        "start": 10,
+        "end": 11,
+        "entity-type": "DURATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "U.S.",
+        "start": 14,
+        "end": 15,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "crude",
+        "start": 15,
+        "end": 16,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "stockpiles",
+        "start": 16,
+        "end": 17,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "last week",
+        "start": 20,
+        "end": 22,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "the week",
+        "start": 29,
+        "end": 31,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E4",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 4,
+          "end": 5,
+          "text": "fell",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 2,
+            "end": 3,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Crude",
+            "standoff_id": 0
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "futures",
+            "standoff_id": 0
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "Wednesday",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E5",
+        "event_type": "POSITION-LOW",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 11,
+          "end": 12,
+          "text": "lows",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 10,
+            "end": 11,
+            "role": "DURATION",
+            "entity-type": "DURATION",
+            "text": "3-month",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E6",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 19,
+          "end": 20,
+          "text": "higher",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 16,
+            "end": 17,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "stockpiles",
+            "standoff_id": 0
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "last week",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E7",
+        "event_type": "CAUSE-MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 27,
+          "end": 28,
+          "text": "draw",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 29,
+            "end": 31,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "the week",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_3",
+    "words": [
+      "On",
+      "the",
+      "New",
+      "York",
+      "Mercantile",
+      "Exchange",
+      ",",
+      "WTI",
+      "crude",
+      "for",
+      "September",
+      "delivery",
+      "traded",
+      "between",
+      "$",
+      "41.69",
+      "and",
+      "$",
+      "43.20",
+      "a",
+      "barrel",
+      "before",
+      "closing",
+      "at",
+      "$",
+      "41.95",
+      "down",
+      "down",
+      "0.97",
+      "or",
+      "2.26",
+      "%",
+      "on",
+      "the",
+      "session",
+      "."
+    ],
+    "sentence": "On the New York Mercantile Exchange , WTI crude for September delivery traded between $ 41.69 and $ 43.20 a barrel before closing at $ 41.95 down down 0.97 or 2.26 % on the session .",
+    "pos-tags": [
+      "IN",
+      "DT",
+      "NNP",
+      "NNP",
+      "NNP",
+      "NNP",
+      ",",
+      "NNP",
+      "NN",
+      "IN",
+      "NNP",
+      "NN",
+      "VBD",
+      "IN",
+      "$",
+      "CD",
+      "CC",
+      "$",
+      "CD",
+      "DT",
+      "NN",
+      "IN",
+      "VBG",
+      "IN",
+      "$",
+      "CD",
+      "IN",
+      "RB",
+      "CD",
+      "CC",
+      "CD",
+      "NN",
+      "IN",
+      "DT",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=12/gov=-1",
+      "case/dep=0/gov=5",
+      "det/dep=1/gov=5",
+      "compound/dep=2/gov=5",
+      "compound/dep=3/gov=5",
+      "compound/dep=4/gov=5",
+      "nmod:on/dep=5/gov=12",
+      "punct/dep=6/gov=12",
+      "compound/dep=7/gov=8",
+      "nsubj/dep=8/gov=12",
+      "case/dep=9/gov=11",
+      "compound/dep=10/gov=11",
+      "nmod:for/dep=11/gov=8",
+      "advmod/dep=13/gov=14",
+      "dobj/dep=14/gov=12",
+      "nummod/dep=15/gov=14",
+      "cc/dep=16/gov=14",
+      "dobj/dep=17/gov=12",
+      "conj:and/dep=17/gov=14",
+      "nummod/dep=18/gov=17",
+      "det/dep=19/gov=20",
+      "dep/dep=20/gov=14",
+      "mark/dep=21/gov=22",
+      "advcl:before/dep=22/gov=12",
+      "case/dep=23/gov=25",
+      "dep/dep=24/gov=25",
+      "advcl:at/dep=25/gov=22",
+      "case/dep=26/gov=25",
+      "advmod/dep=27/gov=22",
+      "nummod/dep=28/gov=31",
+      "cc/dep=29/gov=28",
+      "conj:or/dep=30/gov=28",
+      "nummod/dep=30/gov=31",
+      "nmod:npmod/dep=31/gov=27",
+      "case/dep=32/gov=34",
+      "det/dep=33/gov=34",
+      "nmod:on/dep=34/gov=27",
+      "punct/dep=35/gov=12"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "New York Mercantile Exchange",
+        "start": 2,
+        "end": 6,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "WTI crude",
+        "start": 7,
+        "end": 9,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "September",
+        "start": 10,
+        "end": 11,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 41.69",
+        "start": 14,
+        "end": 16,
+        "entity-type": "MONEY",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 43.20 a barrel",
+        "start": 17,
+        "end": 21,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 41.95",
+        "start": 24,
+        "end": 26,
+        "entity-type": "MONEY",
+        "standoff_id": 0
+      },
+      {
+        "text": "0.97",
+        "start": 28,
+        "end": 29,
+        "entity-type": "NUMBER",
+        "standoff_id": 0
+      },
+      {
+        "text": "2.26 %",
+        "start": 30,
+        "end": 32,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E8",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 26,
+          "end": 27,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 2,
+            "end": 6,
+            "role": "PLACE",
+            "entity-type": "ORGANIZATION",
+            "text": "New York Mercantile Exchange",
+            "standoff_id": 0
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "WTI crude",
+            "standoff_id": 0
+          },
+          {
+            "start": 10,
+            "end": 11,
+            "role": "CONTRACT_DATE",
+            "entity-type": "DATE",
+            "text": "September",
+            "standoff_id": 0
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "role": "INITIAL_VALUE",
+            "entity-type": "MONEY",
+            "text": "$ 41.69",
+            "standoff_id": 0
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "role": "INITIAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "$ 43.20 a barrel",
+            "standoff_id": 0
+          },
+          {
+            "start": 24,
+            "end": 26,
+            "role": "FINAL_VALUE",
+            "entity-type": "MONEY",
+            "text": "$ 41.95",
+            "standoff_id": 0
+          },
+          {
+            "start": 28,
+            "end": 29,
+            "role": "DIFFERENCE",
+            "entity-type": "NUMBER",
+            "text": "0.97",
+            "standoff_id": 0
+          },
+          {
+            "start": 30,
+            "end": 32,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "2.26 %",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E9",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 27,
+          "end": 28,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 2,
+            "end": 6,
+            "role": "PLACE",
+            "entity-type": "ORGANIZATION",
+            "text": "New York Mercantile Exchange",
+            "standoff_id": 0
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "WTI crude",
+            "standoff_id": 0
+          },
+          {
+            "start": 10,
+            "end": 11,
+            "role": "CONTRACT_DATE",
+            "entity-type": "DATE",
+            "text": "September",
+            "standoff_id": 0
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "role": "INITIAL_VALUE",
+            "entity-type": "MONEY",
+            "text": "$ 41.69",
+            "standoff_id": 0
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "role": "INITIAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "$ 43.20 a barrel",
+            "standoff_id": 0
+          },
+          {
+            "start": 24,
+            "end": 26,
+            "role": "FINAL_VALUE",
+            "entity-type": "MONEY",
+            "text": "$ 41.95",
+            "standoff_id": 0
+          },
+          {
+            "start": 28,
+            "end": 29,
+            "role": "DIFFERENCE",
+            "entity-type": "NUMBER",
+            "text": "0.97",
+            "standoff_id": 0
+          },
+          {
+            "start": 30,
+            "end": 32,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "2.26 %",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_4",
+    "words": [
+      "With",
+      "the",
+      "considerable",
+      "losses",
+      ",",
+      "WTI",
+      "closed",
+      "at",
+      "its",
+      "lowest",
+      "level",
+      "since",
+      "April",
+      "19",
+      "."
+    ],
+    "sentence": "With the considerable losses , WTI closed at its lowest level since April 19 .",
+    "pos-tags": [
+      "IN",
+      "DT",
+      "JJ",
+      "NNS",
+      ",",
+      "NNP",
+      "VBD",
+      "IN",
+      "PRP$",
+      "JJS",
+      "NN",
+      "IN",
+      "NNP",
+      "CD",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "DATE",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=6/gov=-1",
+      "case/dep=0/gov=3",
+      "det/dep=1/gov=3",
+      "amod/dep=2/gov=3",
+      "nmod:with/dep=3/gov=6",
+      "punct/dep=4/gov=6",
+      "nsubj/dep=5/gov=6",
+      "case/dep=7/gov=10",
+      "nmod:poss/dep=8/gov=10",
+      "amod/dep=9/gov=10",
+      "nmod:at/dep=10/gov=6",
+      "case/dep=11/gov=12",
+      "nmod:since/dep=12/gov=10",
+      "nummod/dep=13/gov=12",
+      "punct/dep=14/gov=6"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "WTI",
+        "start": 5,
+        "end": 6,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "April 19",
+        "start": 12,
+        "end": 14,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E10",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 3,
+          "end": 4,
+          "text": "losses",
+          "standoff_id": 0
+        },
+        "arguments": []
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E11",
+        "event_type": "POSITION-LOW",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 9,
+          "end": 10,
+          "text": "lowest",
+          "standoff_id": 0
+        },
+        "arguments": [
+		      {
+        
+        "start": 5,
+        "end": 6,
+		"role": "ITEM",
+        "entity-type": "COMMODITY",
+		"text": "WTI",
+        "standoff_id": 0
+      },
+          {
+            "start": 12,
+            "end": 14,
+            "role": "INITIAL_REFERENCE_POINT",
+            "entity-type": "DATE",
+            "text": "April 19",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_5",
+    "words": [
+      "The",
+      "front",
+      "month",
+      "contract",
+      "for",
+      "U.S.",
+      "also",
+      "slipped",
+      "below",
+      "a",
+      "key",
+      "technical",
+      "level",
+      "of",
+      "$",
+      "42",
+      ",",
+      "providing",
+      "further",
+      "risks",
+      "to",
+      "the",
+      "downside",
+      "."
+    ],
+    "sentence": "The front month contract for U.S. also slipped below a key technical level of $ 42 , providing further risks to the downside .",
+    "pos-tags": [
+      "DT",
+      "JJ",
+      "NN",
+      "NN",
+      "IN",
+      "NNP",
+      "RB",
+      "VBD",
+      "IN",
+      "DT",
+      "JJ",
+      "JJ",
+      "NN",
+      "IN",
+      "$",
+      "CD",
+      ",",
+      "VBG",
+      "JJ",
+      "NNS",
+      "TO",
+      "DT",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "DATE",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=7/gov=-1",
+      "det/dep=0/gov=3",
+      "amod/dep=1/gov=3",
+      "compound/dep=2/gov=3",
+      "nsubj/dep=3/gov=7",
+      "case/dep=4/gov=5",
+      "nmod:for/dep=5/gov=3",
+      "advmod/dep=6/gov=7",
+      "case/dep=8/gov=12",
+      "det/dep=9/gov=12",
+      "amod/dep=10/gov=12",
+      "amod/dep=11/gov=12",
+      "nmod:below/dep=12/gov=7",
+      "case/dep=13/gov=15",
+      "dep/dep=14/gov=15",
+      "nmod:of/dep=15/gov=12",
+      "punct/dep=16/gov=7",
+      "xcomp/dep=17/gov=7",
+      "amod/dep=18/gov=19",
+      "dobj/dep=19/gov=17",
+      "case/dep=20/gov=22",
+      "det/dep=21/gov=22",
+      "nmod:to/dep=22/gov=17",
+      "punct/dep=23/gov=7"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "The front month",
+        "start": 0,
+        "end": 3,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "contract",
+        "start": 3,
+        "end": 4,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "U.S.",
+        "start": 5,
+        "end": 6,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 42",
+        "start": 14,
+        "end": 16,
+        "entity-type": "MONEY",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E12",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 7,
+          "end": 8,
+          "text": "slipped",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 5,
+            "end": 6,
+            "role": "SUPPLIER_CONSUMER",
+            "entity-type": "COUNTRY",
+            "text": "U.S.",
+            "standoff_id": 0
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "role": "FINAL_VALUE",
+            "entity-type": "MONEY",
+            "text": "$ 42",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_6",
+    "words": [
+      "On",
+      "the",
+      "Intercontinental",
+      "Exchange",
+      "-LRB-",
+      "ICE",
+      "-RRB-",
+      ",",
+      "brent",
+      "crude",
+      "for",
+      "October",
+      "delivery",
+      "wavered",
+      "between",
+      "$",
+      "43.77",
+      "and",
+      "$",
+      "45.33",
+      ",",
+      "a",
+      "barrel",
+      ",",
+      "before",
+      "settling",
+      "at",
+      "$",
+      "43.91",
+      ",",
+      "down",
+      "1.31",
+      "or",
+      "2.90",
+      "%",
+      "on",
+      "the",
+      "day",
+      "."
+    ],
+    "sentence": "On the Intercontinental Exchange -LRB- ICE -RRB- , brent crude for October delivery wavered between $ 43.77 and $ 45.33 , a barrel , before settling at $ 43.91 , down 1.31 or 2.90 % on the day .",
+    "pos-tags": [
+      "IN",
+      "DT",
+      "NNP",
+      "NNP",
+      "-LRB-",
+      "NN",
+      "-RRB-",
+      ",",
+      "JJ",
+      "NN",
+      "IN",
+      "NNP",
+      "NN",
+      "VBD",
+      "IN",
+      "$",
+      "CD",
+      "CC",
+      "$",
+      "CD",
+      ",",
+      "DT",
+      "NN",
+      ",",
+      "IN",
+      "VBG",
+      "IN",
+      "$",
+      "CD",
+      ",",
+      "RB",
+      "CD",
+      "CC",
+      "CD",
+      "NN",
+      "IN",
+      "DT",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "DATE",
+      "DATE",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=13/gov=-1",
+      "case/dep=0/gov=3",
+      "det/dep=1/gov=3",
+      "compound/dep=2/gov=3",
+      "nmod:on/dep=3/gov=13",
+      "punct/dep=4/gov=5",
+      "appos/dep=5/gov=3",
+      "punct/dep=6/gov=5",
+      "punct/dep=7/gov=13",
+      "amod/dep=8/gov=9",
+      "nsubj/dep=9/gov=13",
+      "case/dep=10/gov=12",
+      "compound/dep=11/gov=12",
+      "nmod:for/dep=12/gov=9",
+      "advmod/dep=14/gov=15",
+      "dobj/dep=15/gov=13",
+      "nummod/dep=16/gov=15",
+      "cc/dep=17/gov=15",
+      "dobj/dep=18/gov=13",
+      "conj:and/dep=18/gov=15",
+      "nummod/dep=19/gov=18",
+      "punct/dep=20/gov=13",
+      "det/dep=21/gov=22",
+      "dobj/dep=22/gov=13",
+      "punct/dep=23/gov=22",
+      "mark/dep=24/gov=25",
+      "acl:before/dep=25/gov=22",
+      "case/dep=26/gov=28",
+      "dep/dep=27/gov=28",
+      "nmod:at/dep=28/gov=25",
+      "punct/dep=29/gov=28",
+      "advmod/dep=30/gov=28",
+      "nmod:npmod/dep=31/gov=30",
+      "cc/dep=32/gov=28",
+      "nummod/dep=33/gov=34",
+      "nmod:at/dep=34/gov=25",
+      "conj:or/dep=34/gov=28",
+      "case/dep=35/gov=37",
+      "det/dep=36/gov=37",
+      "nmod:on/dep=37/gov=34",
+      "punct/dep=38/gov=13"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Intercontinental Exchange",
+        "start": 2,
+        "end": 4,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "brent crude",
+        "start": 8,
+        "end": 10,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "October",
+        "start": 11,
+        "end": 12,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 43.77",
+        "start": 15,
+        "end": 17,
+        "entity-type": "MONEY",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 45.33 , a barrel",
+        "start": 18,
+        "end": 23,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 43.91",
+        "start": 27,
+        "end": 29,
+        "entity-type": "MONEY",
+        "standoff_id": 0
+      },
+      {
+        "text": "1.31",
+        "start": 31,
+        "end": 32,
+        "entity-type": "NUMBER",
+        "standoff_id": 0
+      },
+      {
+        "text": "2.90 %",
+        "start": 33,
+        "end": 35,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "the day",
+        "start": 36,
+        "end": 38,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E13",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 30,
+          "end": 31,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 2,
+            "end": 4,
+            "role": "PLACE",
+            "entity-type": "ORGANIZATION",
+            "text": "Intercontinental Exchange",
+            "standoff_id": 0
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "brent crude",
+            "standoff_id": 0
+          },
+          {
+            "start": 11,
+            "end": 12,
+            "role": "CONTRACT_DATE",
+            "entity-type": "DATE",
+            "text": "October",
+            "standoff_id": 0
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "role": "INITIAL_VALUE",
+            "entity-type": "MONEY",
+            "text": "$ 43.77",
+            "standoff_id": 0
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "role": "INITIAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "$ 45.33 , a barrel",
+            "standoff_id": 0
+          },
+          {
+            "start": 27,
+            "end": 29,
+            "role": "FINAL_VALUE",
+            "entity-type": "MONEY",
+            "text": "$ 43.91",
+            "standoff_id": 0
+          },
+          {
+            "start": 31,
+            "end": 32,
+            "role": "DIFFERENCE",
+            "entity-type": "NUMBER",
+            "text": "1.31",
+            "standoff_id": 0
+          },
+          {
+            "start": 33,
+            "end": 35,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "2.90 %",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_7",
+    "words": [
+      "Crude",
+      "futures",
+      "have",
+      "crashed",
+      "approximately",
+      "9",
+      "%",
+      "in",
+      "the",
+      "last",
+      "week",
+      "and",
+      "roughly",
+      "20",
+      "%",
+      "since",
+      "reaching",
+      "10-month",
+      "highs",
+      "in",
+      "early-June",
+      "."
+    ],
+    "sentence": "Crude futures have crashed approximately 9 % in the last week and roughly 20 % since reaching 10-month highs in early-June .",
+    "pos-tags": [
+      "JJ",
+      "NNS",
+      "VBP",
+      "VBN",
+      "RB",
+      "CD",
+      "NN",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "CC",
+      "RB",
+      "CD",
+      "NN",
+      "IN",
+      "VBG",
+      "JJ",
+      "NNS",
+      "IN",
+      "JJ",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "DATE",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "O",
+      "DURATION",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=3/gov=-1",
+      "amod/dep=0/gov=1",
+      "nsubj/dep=1/gov=3",
+      "aux/dep=2/gov=3",
+      "advmod/dep=4/gov=5",
+      "nummod/dep=5/gov=6",
+      "dobj/dep=6/gov=3",
+      "case/dep=7/gov=10",
+      "det/dep=8/gov=10",
+      "amod/dep=9/gov=10",
+      "nmod:in/dep=10/gov=6",
+      "cc/dep=11/gov=10",
+      "advmod/dep=12/gov=13",
+      "nummod/dep=13/gov=14",
+      "nmod:in/dep=14/gov=6",
+      "conj:and/dep=14/gov=10",
+      "mark/dep=15/gov=16",
+      "advcl:since/dep=16/gov=3",
+      "amod/dep=17/gov=18",
+      "dobj/dep=18/gov=16",
+      "case/dep=19/gov=20",
+      "advcl:in/dep=20/gov=16",
+      "punct/dep=21/gov=3"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Crude",
+        "start": 0,
+        "end": 1,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "futures",
+        "start": 1,
+        "end": 2,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "9 %",
+        "start": 5,
+        "end": 7,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "the last week",
+        "start": 8,
+        "end": 11,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "20 %",
+        "start": 13,
+        "end": 15,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "10-month",
+        "start": 17,
+        "end": 18,
+        "entity-type": "DURATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "early-June",
+        "start": 20,
+        "end": 21,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E14",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 3,
+          "end": 4,
+          "text": "crashed",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 0,
+            "end": 1,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Crude",
+            "standoff_id": 0
+          },
+          {
+            "start": 1,
+            "end": 2,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "futures",
+            "standoff_id": 0
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "9 %",
+            "standoff_id": 0
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "the last week",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E15",
+        "event_type": "POSITION-HIGH",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 18,
+          "end": 19,
+          "text": "highs",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 17,
+            "end": 18,
+            "role": "DURATION",
+            "entity-type": "DURATION",
+            "text": "10-month",
+            "standoff_id": 0
+          },
+          {
+            "start": 20,
+            "end": 21,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "early-June",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_8",
+    "words": [
+      "On",
+      "Wednesday",
+      "morning",
+      ",",
+      "the",
+      "U.S.",
+      "Energy",
+      "Information",
+      "Administration",
+      "-LRB-",
+      "EIA",
+      "-RRB-",
+      "said",
+      "in",
+      "its",
+      "Weekly",
+      "Petroleum",
+      "Status",
+      "Report",
+      "that",
+      "U.S.",
+      "Commercial",
+      "Crude",
+      "inventories",
+      "increased",
+      "by",
+      "1.7",
+      "million",
+      "barrels",
+      "from",
+      "the",
+      "previous",
+      "week",
+      "."
+    ],
+    "sentence": "On Wednesday morning , the U.S. Energy Information Administration -LRB- EIA -RRB- said in its Weekly Petroleum Status Report that U.S. Commercial Crude inventories increased by 1.7 million barrels from the previous week .",
+    "pos-tags": [
+      "IN",
+      "NNP",
+      "NN",
+      ",",
+      "DT",
+      "NNP",
+      "NNP",
+      "NNP",
+      "NNP",
+      "-LRB-",
+      "NN",
+      "-RRB-",
+      "VBD",
+      "IN",
+      "PRP$",
+      "NNP",
+      "NNP",
+      "NNP",
+      "NNP",
+      "WDT",
+      "NNP",
+      "NN",
+      "NN",
+      "NNS",
+      "VBN",
+      "IN",
+      "CD",
+      "CD",
+      "NNS",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "DATE",
+      "TIME",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "SET",
+      "O",
+      "O",
+      "O",
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "NUMBER",
+      "O",
+      "O",
+      "DATE",
+      "DATE",
+      "DATE",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=12/gov=-1",
+      "case/dep=0/gov=1",
+      "nmod:on/dep=1/gov=12",
+      "nmod:tmod/dep=2/gov=12",
+      "punct/dep=3/gov=12",
+      "det/dep=4/gov=8",
+      "compound/dep=5/gov=8",
+      "compound/dep=6/gov=8",
+      "compound/dep=7/gov=8",
+      "nsubj/dep=8/gov=12",
+      "punct/dep=9/gov=10",
+      "appos/dep=10/gov=8",
+      "punct/dep=11/gov=10",
+      "case/dep=13/gov=18",
+      "nmod:poss/dep=14/gov=18",
+      "compound/dep=15/gov=18",
+      "compound/dep=16/gov=18",
+      "compound/dep=17/gov=18",
+      "nmod:in/dep=18/gov=12",
+      "dobj/dep=19/gov=24",
+      "compound/dep=20/gov=23",
+      "compound/dep=21/gov=23",
+      "compound/dep=22/gov=23",
+      "nsubj/dep=23/gov=24",
+      "ccomp/dep=24/gov=12",
+      "case/dep=25/gov=28",
+      "compound/dep=26/gov=27",
+      "nummod/dep=27/gov=28",
+      "nmod:by/dep=28/gov=24",
+      "case/dep=29/gov=32",
+      "det/dep=30/gov=32",
+      "amod/dep=31/gov=32",
+      "nmod:from/dep=32/gov=24",
+      "punct/dep=33/gov=12"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Wednesday",
+        "start": 1,
+        "end": 2,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "U.S. Energy Information Administration -LRB- EIA",
+        "start": 5,
+        "end": 11,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "U.S.",
+        "start": 20,
+        "end": 21,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "Crude",
+        "start": 22,
+        "end": 23,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "inventories",
+        "start": 23,
+        "end": 24,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "1.7 million barrels",
+        "start": 26,
+        "end": 29,
+        "entity-type": "QUANTITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "the previous week",
+        "start": 30,
+        "end": 33,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E16",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 24,
+          "end": 25,
+          "text": "increased",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 1,
+            "end": 2,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "Wednesday",
+            "standoff_id": 0
+          },
+          {
+            "start": 5,
+            "end": 11,
+            "role": "FORECASTER",
+            "entity-type": "ORGANIZATION",
+            "text": "U.S. Energy Information Administration -LRB- EIA",
+            "standoff_id": 0
+          },
+          {
+            "start": 20,
+            "end": 21,
+            "role": "SUPPLIER_CONSUMER",
+            "entity-type": "COUNTRY",
+            "text": "U.S.",
+            "standoff_id": 0
+          },
+          {
+            "start": 22,
+            "end": 23,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Crude",
+            "standoff_id": 0
+          },
+          {
+            "start": 23,
+            "end": 24,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "inventories",
+            "standoff_id": 0
+          },
+          {
+            "start": 26,
+            "end": 29,
+            "role": "DIFFERENCE",
+            "entity-type": "QUANTITY",
+            "text": "1.7 million barrels",
+            "standoff_id": 0
+          },
+          {
+            "start": 30,
+            "end": 33,
+            "role": "INITIAL_REFERENCE_POINT",
+            "entity-type": "DATE",
+            "text": "the previous week",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_9",
+    "words": [
+      "At",
+      "521.1",
+      "million",
+      "barrels",
+      ",",
+      "U.S.",
+      "crude",
+      "oil",
+      "inventories",
+      "are",
+      "at",
+      "historically",
+      "high",
+      "levels",
+      "for",
+      "this",
+      "time",
+      "of",
+      "year",
+      "."
+    ],
+    "sentence": "At 521.1 million barrels , U.S. crude oil inventories are at historically high levels for this time of year .",
+    "pos-tags": [
+      "IN",
+      "CD",
+      "CD",
+      "NNS",
+      ",",
+      "NNP",
+      "JJ",
+      "NN",
+      "NNS",
+      "VBP",
+      "IN",
+      "RB",
+      "JJ",
+      "NNS",
+      "IN",
+      "DT",
+      "NN",
+      "IN",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "NUMBER",
+      "NUMBER",
+      "O",
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DURATION",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=13/gov=-1",
+      "case/dep=0/gov=3",
+      "compound/dep=1/gov=2",
+      "nummod/dep=2/gov=3",
+      "nmod:at/dep=3/gov=13",
+      "punct/dep=4/gov=13",
+      "compound/dep=5/gov=8",
+      "amod/dep=6/gov=8",
+      "compound/dep=7/gov=8",
+      "nsubj/dep=8/gov=13",
+      "cop/dep=9/gov=13",
+      "case/dep=10/gov=13",
+      "advmod/dep=11/gov=12",
+      "amod/dep=12/gov=13",
+      "case/dep=14/gov=16",
+      "det/dep=15/gov=16",
+      "nmod:for/dep=16/gov=13",
+      "case/dep=17/gov=18",
+      "nmod:of/dep=18/gov=16",
+      "punct/dep=19/gov=13"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "521.1 million barrels",
+        "start": 1,
+        "end": 4,
+        "entity-type": "QUANTITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "U.S.",
+        "start": 5,
+        "end": 6,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "crude oil",
+        "start": 6,
+        "end": 8,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "inventories",
+        "start": 8,
+        "end": 9,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "year",
+        "start": 18,
+        "end": 19,
+        "entity-type": "DURATION",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E17",
+        "event_type": "POSITION-HIGH",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 12,
+          "end": 13,
+          "text": "high",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 1,
+            "end": 4,
+            "role": "FINAL_VALUE",
+            "entity-type": "QUANTITY",
+            "text": "521.1 million barrels",
+            "standoff_id": 0
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "role": "SUPPLIER_CONSUMER",
+            "entity-type": "COUNTRY",
+            "text": "U.S.",
+            "standoff_id": 0
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "crude oil",
+            "standoff_id": 0
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "inventories",
+            "standoff_id": 0
+          },
+          {
+            "start": 18,
+            "end": 19,
+            "role": "DURATION",
+            "entity-type": "DURATION",
+            "text": "year",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_10",
+    "words": [
+      "Analysts",
+      "expected",
+      "a",
+      "draw",
+      "of",
+      "2.257",
+      "million",
+      "barrels",
+      "on",
+      "the",
+      "week",
+      ",",
+      "while",
+      "the",
+      "American",
+      "Petroleum",
+      "Institute",
+      "reported",
+      "a",
+      "decrease",
+      "of",
+      "827,000",
+      "on",
+      "Tuesday",
+      "evening",
+      "after",
+      "the",
+      "close",
+      "of",
+      "trading",
+      "."
+    ],
+    "sentence": "Analysts expected a draw of 2.257 million barrels on the week , while the American Petroleum Institute reported a decrease of 827,000 on Tuesday evening after the close of trading .",
+    "pos-tags": [
+      "NNS",
+      "VBD",
+      "DT",
+      "NN",
+      "IN",
+      "CD",
+      "CD",
+      "NNS",
+      "IN",
+      "DT",
+      "NN",
+      ",",
+      "IN",
+      "DT",
+      "NNP",
+      "NNP",
+      "NNP",
+      "VBD",
+      "DT",
+      "NN",
+      "IN",
+      "CD",
+      "IN",
+      "NNP",
+      "NN",
+      "IN",
+      "DT",
+      "NN",
+      "IN",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "NUMBER",
+      "O",
+      "O",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "DATE",
+      "TIME",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=1/gov=-1",
+      "nsubj/dep=0/gov=1",
+      "det/dep=2/gov=3",
+      "dobj/dep=3/gov=1",
+      "case/dep=4/gov=7",
+      "compound/dep=5/gov=6",
+      "nummod/dep=6/gov=7",
+      "nmod:of/dep=7/gov=3",
+      "case/dep=8/gov=10",
+      "det/dep=9/gov=10",
+      "nmod:on/dep=10/gov=1",
+      "punct/dep=11/gov=1",
+      "mark/dep=12/gov=17",
+      "det/dep=13/gov=16",
+      "compound/dep=14/gov=16",
+      "compound/dep=15/gov=16",
+      "nsubj/dep=16/gov=17",
+      "advcl:while/dep=17/gov=1",
+      "det/dep=18/gov=19",
+      "dobj/dep=19/gov=17",
+      "case/dep=20/gov=21",
+      "nmod:of/dep=21/gov=19",
+      "case/dep=22/gov=24",
+      "compound/dep=23/gov=24",
+      "nmod:on/dep=24/gov=17",
+      "case/dep=25/gov=27",
+      "det/dep=26/gov=27",
+      "nmod:after/dep=27/gov=17",
+      "case/dep=28/gov=29",
+      "nmod:of/dep=29/gov=27",
+      "punct/dep=30/gov=1"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "2.257 million barrels",
+        "start": 5,
+        "end": 8,
+        "entity-type": "QUANTITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "the week",
+        "start": 9,
+        "end": 11,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "American Petroleum Institute",
+        "start": 14,
+        "end": 17,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "827,000",
+        "start": 21,
+        "end": 22,
+        "entity-type": "NUMBER",
+        "standoff_id": 0
+      },
+      {
+        "text": "Tuesday evening",
+        "start": 23,
+        "end": 25,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E18",
+        "event_type": "CAUSE-MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "OTHER",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 3,
+          "end": 4,
+          "text": "draw",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 5,
+            "end": 8,
+            "role": "DIFFERENCE",
+            "entity-type": "QUANTITY",
+            "text": "2.257 million barrels",
+            "standoff_id": 0
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "the week",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E19",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 19,
+          "end": 20,
+          "text": "decrease",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 14,
+            "end": 17,
+            "role": "FORECASTER",
+            "entity-type": "ORGANIZATION",
+            "text": "American Petroleum Institute",
+            "standoff_id": 0
+          },
+          {
+            "start": 21,
+            "end": 22,
+            "role": "DIFFERENCE",
+            "entity-type": "NUMBER",
+            "text": "827,000",
+            "standoff_id": 0
+          },
+          {
+            "start": 23,
+            "end": 25,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "Tuesday evening",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_11",
+    "words": [
+      "U.S.",
+      "crude",
+      "inventories",
+      "declined",
+      "in",
+      "each",
+      "of",
+      "the",
+      "previous",
+      "nine",
+      "weeks",
+      "before",
+      "last",
+      "week",
+      "'s",
+      "build",
+      "."
+    ],
+    "sentence": "U.S. crude inventories declined in each of the previous nine weeks before last week 's build .",
+    "pos-tags": [
+      "NNP",
+      "JJ",
+      "NNS",
+      "VBD",
+      "IN",
+      "DT",
+      "IN",
+      "DT",
+      "JJ",
+      "CD",
+      "NNS",
+      "IN",
+      "JJ",
+      "NN",
+      "POS",
+      "VB",
+      "."
+    ],
+    "ner": [
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DURATION",
+      "DURATION",
+      "DURATION",
+      "DURATION",
+      "O",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=3/gov=-1",
+      "compound/dep=0/gov=2",
+      "amod/dep=1/gov=2",
+      "nsubj/dep=2/gov=3",
+      "case/dep=4/gov=5",
+      "nmod:in/dep=5/gov=3",
+      "case/dep=6/gov=10",
+      "det/dep=7/gov=10",
+      "amod/dep=8/gov=10",
+      "nummod/dep=9/gov=10",
+      "nmod:of/dep=10/gov=5",
+      "case/dep=11/gov=13",
+      "amod/dep=12/gov=13",
+      "nmod:'s/dep=13/gov=3",
+      "case/dep=14/gov=13",
+      "ccomp/dep=15/gov=3",
+      "punct/dep=16/gov=3"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "U.S.",
+        "start": 0,
+        "end": 1,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "crude",
+        "start": 1,
+        "end": 2,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "inventories",
+        "start": 2,
+        "end": 3,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "the previous nine weeks",
+        "start": 7,
+        "end": 11,
+        "entity-type": "DURATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "last week",
+        "start": 12,
+        "end": 14,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E20",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 3,
+          "end": 4,
+          "text": "declined",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 0,
+            "end": 1,
+            "role": "SUPPLIER_CONSUMER",
+            "entity-type": "COUNTRY",
+            "text": "U.S.",
+            "standoff_id": 0
+          },
+          {
+            "start": 1,
+            "end": 2,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "crude",
+            "standoff_id": 0
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "inventories",
+            "standoff_id": 0
+          },
+		  {
+			"start": 7,
+			"end": 11,
+			"role": "DURATION",
+			"entity-type": "DURATION",
+			"text": "the previous nine weeks",
+			"standoff_id": 0
+		  },
+          {
+            "start": 12,
+            "end": 14,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "last week",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E21",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 15,
+          "end": 16,
+          "text": "build",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 12,
+            "end": 14,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "last week",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_12",
+    "words": [
+      "In",
+      "addition",
+      ",",
+      "the",
+      "EIA",
+      "reported",
+      "an",
+      "increase",
+      "of",
+      "452,000",
+      "barrels",
+      "in",
+      "gasoline",
+      "inventories",
+      ",",
+      "while",
+      "distillate",
+      "fuel",
+      "inventories",
+      "fell",
+      "by",
+      "780,000",
+      "barrels",
+      "on",
+      "the",
+      "week",
+      "."
+    ],
+    "sentence": "In addition , the EIA reported an increase of 452,000 barrels in gasoline inventories , while distillate fuel inventories fell by 780,000 barrels on the week .",
+    "pos-tags": [
+      "IN",
+      "NN",
+      ",",
+      "DT",
+      "NN",
+      "VBD",
+      "DT",
+      "NN",
+      "IN",
+      "CD",
+      "NNS",
+      "IN",
+      "NN",
+      "NNS",
+      ",",
+      "IN",
+      "NN",
+      "NN",
+      "NNS",
+      "VBD",
+      "IN",
+      "CD",
+      "NNS",
+      "IN",
+      "DT",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "O",
+      "DATE",
+      "DATE",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=5/gov=-1",
+      "case/dep=0/gov=1",
+      "nmod:in/dep=1/gov=5",
+      "punct/dep=2/gov=5",
+      "det/dep=3/gov=4",
+      "nsubj/dep=4/gov=5",
+      "det/dep=6/gov=7",
+      "dobj/dep=7/gov=5",
+      "case/dep=8/gov=10",
+      "nummod/dep=9/gov=10",
+      "nmod:of/dep=10/gov=7",
+      "case/dep=11/gov=13",
+      "compound/dep=12/gov=13",
+      "nmod:in/dep=13/gov=5",
+      "punct/dep=14/gov=5",
+      "mark/dep=15/gov=19",
+      "compound/dep=16/gov=18",
+      "compound/dep=17/gov=18",
+      "nsubj/dep=18/gov=19",
+      "advcl:while/dep=19/gov=5",
+      "case/dep=20/gov=22",
+      "nummod/dep=21/gov=22",
+      "nmod:by/dep=22/gov=19",
+      "case/dep=23/gov=25",
+      "det/dep=24/gov=25",
+      "nmod:on/dep=25/gov=19",
+      "punct/dep=26/gov=5"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "EIA",
+        "start": 4,
+        "end": 5,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "452,000 barrels",
+        "start": 9,
+        "end": 11,
+        "entity-type": "QUANTITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "gasoline",
+        "start": 12,
+        "end": 13,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "inventories",
+        "start": 13,
+        "end": 14,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "distillate fuel",
+        "start": 16,
+        "end": 18,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "inventories",
+        "start": 18,
+        "end": 19,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "780,000 barrels",
+        "start": 21,
+        "end": 23,
+        "entity-type": "QUANTITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "the week",
+        "start": 24,
+        "end": 26,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E22",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 7,
+          "end": 8,
+          "text": "increase",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 4,
+            "end": 5,
+            "role": "FORECASTER",
+            "entity-type": "ORGANIZATION",
+            "text": "EIA",
+            "standoff_id": 0
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "role": "DIFFERENCE",
+            "entity-type": "QUANTITY",
+            "text": "452,000 barrels",
+            "standoff_id": 0
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "gasoline",
+            "standoff_id": 0
+          },
+          {
+            "start": 13,
+            "end": 14,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "inventories",
+            "standoff_id": 0
+          }
+		]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E23",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 19,
+          "end": 20,
+          "text": "fell",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 16,
+            "end": 18,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "distillate fuel",
+            "standoff_id": 0
+          },
+          {
+            "start": 18,
+            "end": 19,
+            "role": "ITEM",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "inventories",
+            "standoff_id": 0
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "role": "DIFFERENCE",
+            "entity-type": "QUANTITY",
+            "text": "780,000 barrels",
+            "standoff_id": 0
+          },
+          {
+            "start": 24,
+            "end": 26,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "the week",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_13",
+    "words": [
+      "Analysts",
+      "expected",
+      "to",
+      "see",
+      "gains",
+      "of",
+      "36,000",
+      "and",
+      "714,000",
+      "in",
+      "gasoline",
+      "and",
+      "distillate",
+      "fuel",
+      "stockpiles",
+      "respectively",
+      "."
+    ],
+    "sentence": "Analysts expected to see gains of 36,000 and 714,000 in gasoline and distillate fuel stockpiles respectively .",
+    "pos-tags": [
+      "NNS",
+      "VBN",
+      "TO",
+      "VB",
+      "NNS",
+      "IN",
+      "CD",
+      "CC",
+      "CD",
+      "IN",
+      "NN",
+      "CC",
+      "NN",
+      "NN",
+      "NNS",
+      "RB",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "NUMBER",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=1/gov=-1",
+      "nsubj/dep=0/gov=1",
+      "nsubj:xsubj/dep=0/gov=3",
+      "mark/dep=2/gov=3",
+      "xcomp/dep=3/gov=1",
+      "dobj/dep=4/gov=3",
+      "case/dep=5/gov=6",
+      "nmod:of/dep=6/gov=4",
+      "cc/dep=7/gov=6",
+      "nmod:of/dep=8/gov=4",
+      "conj:and/dep=8/gov=6",
+      "case/dep=9/gov=14",
+      "compound/dep=10/gov=14",
+      "cc/dep=11/gov=10",
+      "conj:and/dep=12/gov=10",
+      "compound/dep=12/gov=14",
+      "compound/dep=13/gov=14",
+      "nmod:in/dep=14/gov=4",
+      "advmod/dep=15/gov=3",
+      "punct/dep=16/gov=1"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "36,000",
+        "start": 6,
+        "end": 7,
+        "entity-type": "NUMBER",
+        "standoff_id": 0
+      },
+      {
+        "text": "714,000",
+        "start": 8,
+        "end": 9,
+        "entity-type": "NUMBER",
+        "standoff_id": 0
+      },
+      {
+        "text": "gasoline",
+        "start": 10,
+        "end": 11,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "distillate",
+        "start": 12,
+        "end": 13,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "fuel",
+        "start": 13,
+        "end": 14,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "stockpiles",
+        "start": 14,
+        "end": 15,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E24",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "OTHER",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 4,
+          "end": 5,
+          "text": "gains",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 6,
+            "end": 7,
+            "role": "DIFFERENCE",
+            "entity-type": "NUMBER",
+            "text": "36,000",
+            "standoff_id": 0
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "role": "DIFFERENCE",
+            "entity-type": "NUMBER",
+            "text": "714,000",
+            "standoff_id": 0
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "distillate",
+            "standoff_id": 0
+          },
+          {
+            "start": 13,
+            "end": 14,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "fuel",
+            "standoff_id": 0
+          },
+		  {
+        
+        "start": 14,
+        "end": 15,
+		"role": "ATTRIBUTE",
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+		"text": "stockpiles",
+        "standoff_id": 0
+      }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_14",
+    "words": [
+      "Gasoline",
+      "inventories",
+      "have",
+      "remained",
+      "far",
+      "above",
+      "seasonal",
+      "averages",
+      "in",
+      "recent",
+      "weeks",
+      ",",
+      "as",
+      "a",
+      "spike",
+      "in",
+      "refinery",
+      "activity",
+      "has",
+      "outpaced",
+      "demand",
+      "during",
+      "the",
+      "pivotal",
+      "summer",
+      "driving",
+      "season",
+      "."
+    ],
+    "sentence": "Gasoline inventories have remained far above seasonal averages in recent weeks , as a spike in refinery activity has outpaced demand during the pivotal summer driving season .",
+    "pos-tags": [
+      "NN",
+      "NNS",
+      "VBP",
+      "VBN",
+      "RB",
+      "IN",
+      "JJ",
+      "NNS",
+      "IN",
+      "JJ",
+      "NNS",
+      ",",
+      "IN",
+      "DT",
+      "NN",
+      "IN",
+      "NN",
+      "NN",
+      "VBZ",
+      "VBN",
+      "NN",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "VBG",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DURATION",
+      "DURATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=3/gov=-1",
+      "compound/dep=0/gov=1",
+      "nsubj/dep=1/gov=3",
+      "aux/dep=2/gov=3",
+      "advmod/dep=4/gov=3",
+      "case/dep=5/gov=7",
+      "amod/dep=6/gov=7",
+      "nmod:above/dep=7/gov=4",
+      "case/dep=8/gov=10",
+      "amod/dep=9/gov=10",
+      "nmod:in/dep=10/gov=3",
+      "punct/dep=11/gov=3",
+      "mark/dep=12/gov=19",
+      "det/dep=13/gov=14",
+      "nsubj/dep=14/gov=19",
+      "case/dep=15/gov=17",
+      "compound/dep=16/gov=17",
+      "nmod:in/dep=17/gov=14",
+      "aux/dep=18/gov=19",
+      "advcl:as/dep=19/gov=3",
+      "dobj/dep=20/gov=19",
+      "case/dep=21/gov=26",
+      "det/dep=22/gov=26",
+      "amod/dep=23/gov=26",
+      "nmod:tmod/dep=24/gov=23",
+      "amod/dep=25/gov=26",
+      "nmod:during/dep=26/gov=19",
+      "punct/dep=27/gov=3"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Gasoline",
+        "start": 0,
+        "end": 1,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "inventories",
+        "start": 1,
+        "end": 2,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "recent weeks",
+        "start": 9,
+        "end": 11,
+        "entity-type": "DURATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "demand",
+        "start": 20,
+        "end": 21,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "summer",
+        "start": 24,
+        "end": 25,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E25",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 14,
+          "end": 15,
+          "text": "spike",
+          "standoff_id": 0
+        },
+        "arguments": []
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_15",
+    "words": [
+      "Meanwhile",
+      ",",
+      "U.S.",
+      "crude",
+      "production",
+      "rose",
+      "by",
+      "21,000",
+      "barrels",
+      "per",
+      "day",
+      "last",
+      "week",
+      "to",
+      "8.515",
+      "million",
+      "bpd",
+      ",",
+      "increasing",
+      "for",
+      "the",
+      "third",
+      "consecutive",
+      "week",
+      "."
+    ],
+    "sentence": "Meanwhile , U.S. crude production rose by 21,000 barrels per day last week to 8.515 million bpd , increasing for the third consecutive week .",
+    "pos-tags": [
+      "RB",
+      ",",
+      "NNP",
+      "JJ",
+      "NN",
+      "VBD",
+      "IN",
+      "CD",
+      "NNS",
+      "IN",
+      "NN",
+      "JJ",
+      "NN",
+      "TO",
+      "CD",
+      "CD",
+      "NN",
+      ",",
+      "VBG",
+      "IN",
+      "DT",
+      "JJ",
+      "JJ",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "O",
+      "DATE",
+      "DATE",
+      "DATE",
+      "O",
+      "MONEY",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "DURATION",
+      "DURATION",
+      "DURATION",
+      "DURATION",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=5/gov=-1",
+      "advmod/dep=0/gov=5",
+      "punct/dep=1/gov=5",
+      "compound/dep=2/gov=4",
+      "amod/dep=3/gov=4",
+      "nsubj/dep=4/gov=5",
+      "case/dep=6/gov=8",
+      "nummod/dep=7/gov=8",
+      "nmod:by/dep=8/gov=5",
+      "case/dep=9/gov=10",
+      "nmod:per/dep=10/gov=8",
+      "amod/dep=11/gov=12",
+      "nmod:tmod/dep=12/gov=8",
+      "case/dep=13/gov=16",
+      "compound/dep=14/gov=15",
+      "nummod/dep=15/gov=16",
+      "nmod:to/dep=16/gov=5",
+      "punct/dep=17/gov=5",
+      "xcomp/dep=18/gov=5",
+      "case/dep=19/gov=23",
+      "det/dep=20/gov=23",
+      "amod/dep=21/gov=23",
+      "amod/dep=22/gov=23",
+      "nmod:for/dep=23/gov=18",
+      "punct/dep=24/gov=5"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "U.S.",
+        "start": 2,
+        "end": 3,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "crude",
+        "start": 3,
+        "end": 4,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "production",
+        "start": 4,
+        "end": 5,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "21,000 barrels per day",
+        "start": 7,
+        "end": 11,
+        "entity-type": "PRODUCTION_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "last week",
+        "start": 11,
+        "end": 13,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "8.515 million bpd",
+        "start": 14,
+        "end": 17,
+        "entity-type": "PRODUCTION_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "the third consecutive week",
+        "start": 20,
+        "end": 24,
+        "entity-type": "DURATION",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E26",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 5,
+          "end": 6,
+          "text": "rose",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 2,
+            "end": 3,
+            "role": "SUPPLIER_CONSUMER",
+            "entity-type": "COUNTRY",
+            "text": "U.S.",
+            "standoff_id": 0
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "crude",
+            "standoff_id": 0
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "production",
+            "standoff_id": 0
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "role": "DIFFERENCE",
+            "entity-type": "PRODUCTION_UNIT",
+            "text": "21,000 barrels per day",
+            "standoff_id": 0
+          },
+		  {
+            "start": 14,
+            "end": 17,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRODUCTION_UNIT",
+            "text": "8.515 million bpd",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E27",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 18,
+          "end": 19,
+          "text": "increasing",
+          "standoff_id": 0
+        },
+        "arguments": [
+
+          {
+            "start": 20,
+            "end": 24,
+            "role": "DURATION",
+            "entity-type": "DURATION",
+            "text": "the third consecutive week",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_16",
+    "words": [
+      "As",
+      "oil",
+      "rigs",
+      "throughout",
+      "the",
+      "country",
+      "have",
+      "returned",
+      "back",
+      "online",
+      "in",
+      "recent",
+      "weeks",
+      ",",
+      "increased",
+      "production",
+      "levels",
+      "have",
+      "dragged",
+      "down",
+      "future",
+      "crude",
+      "prices",
+      "."
+    ],
+    "sentence": "As oil rigs throughout the country have returned back online in recent weeks , increased production levels have dragged down future crude prices .",
+    "pos-tags": [
+      "IN",
+      "NN",
+      "NNS",
+      "IN",
+      "DT",
+      "NN",
+      "VBP",
+      "VBN",
+      "RB",
+      "NN",
+      "IN",
+      "JJ",
+      "NNS",
+      ",",
+      "VBD",
+      "NN",
+      "NNS",
+      "VBP",
+      "VBN",
+      "RP",
+      "JJ",
+      "NN",
+      "NNS",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DURATION",
+      "DURATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=14/gov=-1",
+      "mark/dep=0/gov=7",
+      "compound/dep=1/gov=2",
+      "nsubj/dep=2/gov=7",
+      "case/dep=3/gov=5",
+      "det/dep=4/gov=5",
+      "nmod:throughout/dep=5/gov=2",
+      "aux/dep=6/gov=7",
+      "csubj/dep=7/gov=14",
+      "advmod/dep=8/gov=7",
+      "dep/dep=9/gov=12",
+      "case/dep=10/gov=12",
+      "amod/dep=11/gov=12",
+      "advcl:in/dep=12/gov=7",
+      "punct/dep=13/gov=7",
+      "compound/dep=15/gov=16",
+      "nsubj/dep=16/gov=18",
+      "aux/dep=17/gov=18",
+      "ccomp/dep=18/gov=14",
+      "compound:prt/dep=19/gov=18",
+      "amod/dep=20/gov=22",
+      "compound/dep=21/gov=22",
+      "dobj/dep=22/gov=18",
+      "punct/dep=23/gov=14"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "oil",
+        "start": 1,
+        "end": 2,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "rigs",
+        "start": 2,
+        "end": 3,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "recent weeks",
+        "start": 11,
+        "end": 13,
+        "entity-type": "DURATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "production",
+        "start": 15,
+        "end": 16,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "future",
+        "start": 20,
+        "end": 21,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "crude",
+        "start": 21,
+        "end": 22,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "prices",
+        "start": 22,
+        "end": 23,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E28",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 14,
+          "end": 15,
+          "text": "increased",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 15,
+            "end": 16,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "production",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E29",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 19,
+          "end": 20,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 21,
+            "end": 22,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "crude",
+            "standoff_id": 0
+          },
+		        {
+        
+        "start": 22,
+        "end": 23,
+		"role": "ATTRIBUTE",
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+		"text": "prices",
+        "standoff_id": 0
+      }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_17",
+    "words": [
+      "Crude",
+      "futures",
+      "also",
+      "remained",
+      "relatively",
+      "unchanged",
+      "after",
+      "the",
+      "Federal",
+      "Reserve",
+      "left",
+      "short-term",
+      "interest",
+      "rates",
+      "unchanged",
+      "on",
+      "Wednesday",
+      "for",
+      "a",
+      "fifth",
+      "consecutive",
+      "meeting",
+      "."
+    ],
+    "sentence": "Crude futures also remained relatively unchanged after the Federal Reserve left short-term interest rates unchanged on Wednesday for a fifth consecutive meeting .",
+    "pos-tags": [
+      "JJ",
+      "NNS",
+      "RB",
+      "VBD",
+      "RB",
+      "JJ",
+      "IN",
+      "DT",
+      "NNP",
+      "NNP",
+      "VBD",
+      "JJ",
+      "NN",
+      "NNS",
+      "JJ",
+      "IN",
+      "NNP",
+      "IN",
+      "DT",
+      "JJ",
+      "JJ",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "ORDINAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=3/gov=-1",
+      "amod/dep=0/gov=1",
+      "nsubj/dep=1/gov=3",
+      "advmod/dep=2/gov=3",
+      "advmod/dep=4/gov=5",
+      "xcomp/dep=5/gov=3",
+      "mark/dep=6/gov=10",
+      "det/dep=7/gov=9",
+      "compound/dep=8/gov=9",
+      "nsubj/dep=9/gov=10",
+      "advcl:after/dep=10/gov=3",
+      "amod/dep=11/gov=13",
+      "compound/dep=12/gov=13",
+      "dobj/dep=13/gov=10",
+      "advmod/dep=14/gov=10",
+      "case/dep=15/gov=16",
+      "nmod:on/dep=16/gov=14",
+      "case/dep=17/gov=21",
+      "det/dep=18/gov=21",
+      "amod/dep=19/gov=21",
+      "amod/dep=20/gov=21",
+      "nmod:for/dep=21/gov=10",
+      "punct/dep=22/gov=3"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Crude",
+        "start": 0,
+        "end": 1,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "futures",
+        "start": 1,
+        "end": 2,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "Federal Reserve",
+        "start": 8,
+        "end": 10,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "interest rates",
+        "start": 12,
+        "end": 14,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "Wednesday",
+        "start": 16,
+        "end": 17,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E30",
+        "event_type": "MOVEMENT-FLAT",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 5,
+          "end": 6,
+          "text": "unchanged",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 0,
+            "end": 1,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Crude",
+            "standoff_id": 0
+          },
+          {
+            "start": 1,
+            "end": 2,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "futures",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E31",
+        "event_type": "MOVEMENT-FLAT",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 14,
+          "end": 15,
+          "text": "unchanged",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 12,
+            "end": 14,
+            "role": "ITEM",
+            "entity-type": "ECONOMIC_ITEM",
+            "text": "interest rates",
+            "standoff_id": 0
+          },
+          {
+            "start": 16,
+            "end": 17,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "Wednesday",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_18",
+    "words": [
+      "Any",
+      "rate",
+      "hikes",
+      "by",
+      "the",
+      "Fed",
+      "this",
+      "year",
+      "are",
+      "viewed",
+      "as",
+      "bullish",
+      "for",
+      "the",
+      "dollar",
+      "as",
+      "foreign",
+      "investors",
+      "pile",
+      "into",
+      "the",
+      "greenback",
+      "in",
+      "order",
+      "to",
+      "capitalize",
+      "on",
+      "higher",
+      "yields",
+      "."
+    ],
+    "sentence": "Any rate hikes by the Fed this year are viewed as bullish for the dollar as foreign investors pile into the greenback in order to capitalize on higher yields .",
+    "pos-tags": [
+      "DT",
+      "NN",
+      "NNS",
+      "IN",
+      "DT",
+      "NNP",
+      "DT",
+      "NN",
+      "VBP",
+      "VBN",
+      "IN",
+      "JJ",
+      "IN",
+      "DT",
+      "NN",
+      "IN",
+      "JJ",
+      "NNS",
+      "VBP",
+      "IN",
+      "DT",
+      "NN",
+      "IN",
+      "NN",
+      "TO",
+      "VB",
+      "IN",
+      "JJR",
+      "NNS",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=9/gov=-1",
+      "det/dep=0/gov=2",
+      "compound/dep=1/gov=2",
+      "nsubjpass/dep=2/gov=9",
+      "case/dep=3/gov=5",
+      "det/dep=4/gov=5",
+      "nmod:by/dep=5/gov=2",
+      "det/dep=6/gov=7",
+      "dep/dep=7/gov=5",
+      "auxpass/dep=8/gov=9",
+      "case/dep=10/gov=11",
+      "advcl:as/dep=11/gov=9",
+      "case/dep=12/gov=14",
+      "det/dep=13/gov=14",
+      "nmod:for/dep=14/gov=9",
+      "mark/dep=15/gov=18",
+      "amod/dep=16/gov=17",
+      "nsubj/dep=17/gov=18",
+      "advcl:as/dep=18/gov=9",
+      "case/dep=19/gov=21",
+      "det/dep=20/gov=21",
+      "nmod:into/dep=21/gov=18",
+      "mark/dep=22/gov=25",
+      "mwe/dep=23/gov=22",
+      "mark/dep=24/gov=25",
+      "advcl:in_order/dep=25/gov=18",
+      "case/dep=26/gov=28",
+      "amod/dep=27/gov=28",
+      "nmod:on/dep=28/gov=25",
+      "punct/dep=29/gov=9"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Fed",
+        "start": 5,
+        "end": 6,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "this year",
+        "start": 6,
+        "end": 8,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "dollar",
+        "start": 14,
+        "end": 15,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "greenback",
+        "start": 21,
+        "end": 22,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "yields",
+        "start": 28,
+        "end": 29,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E32",
+        "event_type": "GROW-STRONG",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 11,
+          "end": 12,
+          "text": "bullish",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 14,
+            "end": 15,
+            "role": "ITEM",
+            "entity-type": "ECONOMIC_ITEM",
+            "text": "dollar",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_19",
+    "words": [
+      "The",
+      "U.S.",
+      "Dollar",
+      "Index",
+      ",",
+      "which",
+      "measures",
+      "the",
+      "strength",
+      "of",
+      "the",
+      "greenback",
+      "versus",
+      "a",
+      "basket",
+      "of",
+      "six",
+      "other",
+      "major",
+      "currencies",
+      ",",
+      "fell",
+      "slightly",
+      "following",
+      "the",
+      "Fed",
+      "'s",
+      "release",
+      "to",
+      "96.78",
+      ",",
+      "down",
+      "0.40",
+      "%",
+      "on",
+      "the",
+      "session",
+      "."
+    ],
+    "sentence": "The U.S. Dollar Index , which measures the strength of the greenback versus a basket of six other major currencies , fell slightly following the Fed 's release to 96.78 , down 0.40 % on the session .",
+    "pos-tags": [
+      "DT",
+      "NNP",
+      "NNP",
+      "NNP",
+      ",",
+      "WDT",
+      "VBZ",
+      "DT",
+      "NN",
+      "IN",
+      "DT",
+      "NN",
+      "CC",
+      "DT",
+      "NN",
+      "IN",
+      "CD",
+      "JJ",
+      "JJ",
+      "NNS",
+      ",",
+      "VBD",
+      "RB",
+      "VBG",
+      "DT",
+      "NNP",
+      "POS",
+      "NN",
+      "TO",
+      "CD",
+      ",",
+      "RB",
+      "CD",
+      "NN",
+      "IN",
+      "DT",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "NUMBER",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=21/gov=-1",
+      "det/dep=0/gov=3",
+      "compound/dep=1/gov=3",
+      "compound/dep=2/gov=3",
+      "nsubj/dep=3/gov=6",
+      "nsubj/dep=3/gov=21",
+      "punct/dep=4/gov=3",
+      "ref/dep=5/gov=3",
+      "acl:relcl/dep=6/gov=3",
+      "det/dep=7/gov=8",
+      "dobj/dep=8/gov=6",
+      "case/dep=9/gov=11",
+      "det/dep=10/gov=11",
+      "nmod:of/dep=11/gov=8",
+      "case/dep=12/gov=14",
+      "det/dep=13/gov=14",
+      "nmod:versus/dep=14/gov=11",
+      "case/dep=15/gov=19",
+      "nummod/dep=16/gov=19",
+      "amod/dep=17/gov=19",
+      "amod/dep=18/gov=19",
+      "nmod:of/dep=19/gov=14",
+      "punct/dep=20/gov=3",
+      "advmod/dep=22/gov=21",
+      "case/dep=23/gov=27",
+      "det/dep=24/gov=25",
+      "nmod:poss/dep=25/gov=27",
+      "case/dep=26/gov=25",
+      "nmod:following/dep=27/gov=21",
+      "case/dep=28/gov=29",
+      "nmod:to/dep=29/gov=27",
+      "punct/dep=30/gov=27",
+      "advmod/dep=31/gov=27",
+      "nummod/dep=32/gov=33",
+      "nmod:npmod/dep=33/gov=31",
+      "case/dep=34/gov=36",
+      "det/dep=35/gov=36",
+      "nmod:on/dep=36/gov=31",
+      "punct/dep=37/gov=21"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "U.S. Dollar",
+        "start": 1,
+        "end": 3,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "Index",
+        "start": 3,
+        "end": 4,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "greenback",
+        "start": 11,
+        "end": 12,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "six",
+        "start": 16,
+        "end": 17,
+        "entity-type": "NUMBER",
+        "standoff_id": 0
+      },
+      {
+        "text": "Fed",
+        "start": 25,
+        "end": 26,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "96.78",
+        "start": 29,
+        "end": 30,
+        "entity-type": "NUMBER",
+        "standoff_id": 0
+      },
+      {
+        "text": "0.40 %",
+        "start": 32,
+        "end": 34,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E33",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 21,
+          "end": 22,
+          "text": "fell",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 1,
+            "end": 3,
+            "role": "ITEM",
+            "entity-type": "ECONOMIC_ITEM",
+            "text": "U.S. Dollar",
+            "standoff_id": 0
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "role": "ATTRIBUTE",
+            "entity-type": "ECONOMIC_ITEM",
+            "text": "Index",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E34",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 31,
+          "end": 32,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 29,
+            "end": 30,
+            "role": "FINAL_VALUE",
+            "entity-type": "NUMBER",
+            "text": "96.78",
+            "standoff_id": 0
+          },
+          {
+            "start": 32,
+            "end": 34,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "0.40 %",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_20",
+    "words": [
+      "The",
+      "index",
+      "still",
+      "remains",
+      "near",
+      "four-month",
+      "highs",
+      "."
+    ],
+    "sentence": "The index still remains near four-month highs .",
+    "pos-tags": [
+      "DT",
+      "NN",
+      "RB",
+      "VBZ",
+      "JJ",
+      "JJ",
+      "NNS",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DURATION",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=3/gov=-1",
+      "det/dep=0/gov=1",
+      "nsubj/dep=1/gov=3",
+      "advmod/dep=2/gov=3",
+      "amod/dep=4/gov=6",
+      "amod/dep=5/gov=6",
+      "xcomp/dep=6/gov=3",
+      "punct/dep=7/gov=3"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "index",
+        "start": 1,
+        "end": 2,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      },
+      {
+        "text": "four-month",
+        "start": 5,
+        "end": 6,
+        "entity-type": "DURATION",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E35",
+        "event_type": "POSITION-HIGH",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 6,
+          "end": 7,
+          "text": "highs",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 1,
+            "end": 2,
+            "role": "ITEM",
+            "entity-type": "ECONOMIC_ITEM",
+            "text": "index",
+            "standoff_id": 0
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "role": "DURATION",
+            "entity-type": "DURATION",
+            "text": "four-month",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969.txt_21",
+    "words": [
+      "Dollar-denominated",
+      "commodities",
+      "such",
+      "as",
+      "Crude",
+      "become",
+      "more",
+      "expensive",
+      "for",
+      "foreign",
+      "purchasers",
+      "when",
+      "the",
+      "dollar",
+      "appreciates",
+      "."
+    ],
+    "sentence": "Dollar-denominated commodities such as Crude become more expensive for foreign purchasers when the dollar appreciates .",
+    "pos-tags": [
+      "JJ",
+      "NNS",
+      "JJ",
+      "IN",
+      "JJ",
+      "VBN",
+      "RBR",
+      "JJ",
+      "IN",
+      "JJ",
+      "NNS",
+      "WRB",
+      "DT",
+      "NN",
+      "VBZ",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=5/gov=-1",
+      "amod/dep=0/gov=1",
+      "nsubj/dep=1/gov=5",
+      "case/dep=2/gov=4",
+      "mwe/dep=3/gov=2",
+      "nmod:such_as/dep=4/gov=1",
+      "advmod/dep=6/gov=7",
+      "xcomp/dep=7/gov=5",
+      "case/dep=8/gov=10",
+      "amod/dep=9/gov=10",
+      "nmod:for/dep=10/gov=7",
+      "advmod/dep=11/gov=14",
+      "det/dep=12/gov=13",
+      "nsubj/dep=13/gov=14",
+      "advcl/dep=14/gov=5",
+      "punct/dep=15/gov=5"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Crude",
+        "start": 4,
+        "end": 5,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "dollar",
+        "start": 13,
+        "end": 14,
+        "entity-type": "ECONOMIC_ITEM",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+	     {
+        "id": "Crude-crashes-to-fresh-3month-lows-amid-surprising-inventory-build-416969_E36",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 14,
+          "end": 15,
+          "text": "appreciates",
+          "standoff_id": 0
+        },
+        "arguments": [
+      {
+        
+        "start": 13,
+        "end": 14,
+		"role": "ITEM",
+        "entity-type": "ECONOMIC_ITEM",
+		"text": "dollar",
+        "standoff_id": 0
+      }
+        ]
+      }
+	],
+    "event-event-relations": []
+  }
+]

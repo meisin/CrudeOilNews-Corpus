@@ -1,0 +1,3643 @@
+[
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_0",
+    "words": [
+      "Crude",
+      "drops",
+      "as",
+      "Goldman",
+      "Sachs",
+      "trims",
+      "price",
+      "forecast",
+      "."
+    ],
+    "sentence": "Crude drops as Goldman Sachs trims price forecast .",
+    "pos-tags": [
+      "JJ",
+      "NNS",
+      "IN",
+      "NNP",
+      "NNP",
+      "VBZ",
+      "NN",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=5/gov=-1",
+      "amod/dep=0/gov=1",
+      "nsubj/dep=1/gov=5",
+      "case/dep=2/gov=4",
+      "compound/dep=3/gov=4",
+      "nmod:as/dep=4/gov=1",
+      "compound/dep=6/gov=7",
+      "dobj/dep=7/gov=5",
+      "punct/dep=8/gov=5"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Crude",
+        "start": 0,
+        "end": 1,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "Goldman Sachs",
+        "start": 3,
+        "end": 5,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "price",
+        "start": 6,
+        "end": 7,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "forecast",
+        "start": 7,
+        "end": 8,
+        "entity-type": "FORECAST_TARGET",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E1",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 1,
+          "end": 2,
+          "text": "drops",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 0,
+            "end": 1,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Crude",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E2",
+        "event_type": "CAUSE-MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 5,
+          "end": 6,
+          "text": "trims",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 6,
+            "end": 7,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "price",
+            "standoff_id": 0
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "role": "ATTRIBUTE",
+            "entity-type": "FORECAST_TARGET",
+            "text": "forecast",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_1",
+    "words": [
+      "Oct",
+      "27",
+      ",",
+      "2014",
+      "01:13",
+      "PM",
+      "E.",
+      "https://www.investing.com/news/commodities-news/crude-drops-as-goldman-sachs-trims-forecast-price-314397",
+      "."
+    ],
+    "sentence": "Oct 27 , 2014 01:13 PM E. https://www.investing.com/news/commodities-news/crude-drops-as-goldman-sachs-trims-forecast-price-314397 .",
+    "pos-tags": [
+      "NN",
+      "CD",
+      ",",
+      "CD",
+      "CD",
+      "NNP",
+      "NNP",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "DATE",
+      "DATE",
+      "DATE",
+      "DATE",
+      "TIME",
+      "TIME",
+      "O",
+      "URL",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=0/gov=-1",
+      "nummod/dep=1/gov=0",
+      "punct/dep=2/gov=0",
+      "nummod/dep=3/gov=6",
+      "nummod/dep=4/gov=6",
+      "compound/dep=5/gov=6",
+      "appos/dep=6/gov=0",
+      "dep/dep=7/gov=6",
+      "punct/dep=8/gov=0"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Oct 27 , 2014",
+        "start": 0,
+        "end": 4,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_2",
+    "words": [
+      "Investing.com",
+      "-",
+      "Oil",
+      "prices",
+      "dropped",
+      "on",
+      "Monday",
+      "after",
+      "U.S.",
+      "financial",
+      "institution",
+      "Goldman",
+      "Sachs",
+      "cut",
+      "its",
+      "2015",
+      "price",
+      "forecast",
+      "."
+    ],
+    "sentence": "Investing.com - Oil prices dropped on Monday after U.S. financial institution Goldman Sachs cut its 2015 price forecast .",
+    "pos-tags": [
+      "NNP",
+      ":",
+      "NN",
+      "NNS",
+      "VBD",
+      "IN",
+      "NNP",
+      "IN",
+      "NNP",
+      "JJ",
+      "NN",
+      "NNP",
+      "NNP",
+      "VBD",
+      "PRP$",
+      "CD",
+      "NN",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=0/gov=-1",
+      "punct/dep=1/gov=0",
+      "compound/dep=2/gov=3",
+      "nsubj/dep=3/gov=4",
+      "parataxis/dep=4/gov=0",
+      "case/dep=5/gov=6",
+      "nmod:on/dep=6/gov=4",
+      "case/dep=7/gov=12",
+      "compound/dep=8/gov=12",
+      "amod/dep=9/gov=12",
+      "compound/dep=10/gov=12",
+      "compound/dep=11/gov=12",
+      "nmod:after/dep=12/gov=4",
+      "acl/dep=13/gov=12",
+      "nmod:poss/dep=14/gov=17",
+      "nummod/dep=15/gov=17",
+      "compound/dep=16/gov=17",
+      "dobj/dep=17/gov=13",
+      "punct/dep=18/gov=0"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Oil",
+        "start": 2,
+        "end": 3,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "prices",
+        "start": 3,
+        "end": 4,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "Monday",
+        "start": 6,
+        "end": 7,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "U.S.",
+        "start": 8,
+        "end": 9,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "Goldman Sachs",
+        "start": 11,
+        "end": 13,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "2015",
+        "start": 15,
+        "end": 16,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "price",
+        "start": 16,
+        "end": 17,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "forecast",
+        "start": 17,
+        "end": 18,
+        "entity-type": "FORECAST_TARGET",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E3",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 4,
+          "end": 5,
+          "text": "dropped",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 2,
+            "end": 3,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Oil",
+            "standoff_id": 0
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "prices",
+            "standoff_id": 0
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "Monday",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E4",
+        "event_type": "CAUSE-MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 13,
+          "end": 14,
+          "text": "cut",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 6,
+            "end": 7,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "Monday",
+            "standoff_id": 0
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "role": "FORECASTER",
+            "entity-type": "COUNTRY",
+            "text": "U.S.",
+            "standoff_id": 0
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "role": "FORECASTER",
+            "entity-type": "ORGANIZATION",
+            "text": "Goldman Sachs",
+            "standoff_id": 0
+          },
+          {
+            "start": 15,
+            "end": 16,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "2015",
+            "standoff_id": 0
+          },
+          {
+            "start": 16,
+            "end": 17,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "price",
+            "standoff_id": 0
+          },
+          {
+            "start": 17,
+            "end": 18,
+            "role": "FORECAST",
+            "entity-type": "FORECAST_TARGET",
+            "text": "forecast",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_3",
+    "words": [
+      "In",
+      "the",
+      "New",
+      "York",
+      "Mercantile",
+      "Exchange",
+      ",",
+      "West",
+      "Texas",
+      "Intermediate",
+      "crude",
+      "oil",
+      "futures",
+      "for",
+      "delivery",
+      "in",
+      "December",
+      "traded",
+      "down",
+      "0.44",
+      "%",
+      "at",
+      "$",
+      "80.65",
+      "a",
+      "barrel",
+      "during",
+      "U.S.",
+      "trading",
+      ",",
+      "up",
+      "from",
+      "a",
+      "session",
+      "low",
+      "of",
+      "$",
+      "79.46",
+      "a",
+      "barrel",
+      "and",
+      "off",
+      "a",
+      "high",
+      "of",
+      "$",
+      "81.26",
+      "a",
+      "barrel",
+      "."
+    ],
+    "sentence": "In the New York Mercantile Exchange , West Texas Intermediate crude oil futures for delivery in December traded down 0.44 % at $ 80.65 a barrel during U.S. trading , up from a session low of $ 79.46 a barrel and off a high of $ 81.26 a barrel .",
+    "pos-tags": [
+      "IN",
+      "DT",
+      "NNP",
+      "NNP",
+      "NNP",
+      "NNP",
+      ",",
+      "NNP",
+      "NNP",
+      "NNP",
+      "JJ",
+      "NN",
+      "NNS",
+      "IN",
+      "NN",
+      "IN",
+      "NNP",
+      "VBD",
+      "RP",
+      "CD",
+      "NN",
+      "IN",
+      "$",
+      "CD",
+      "DT",
+      "NN",
+      "IN",
+      "NNP",
+      "NN",
+      ",",
+      "RB",
+      "IN",
+      "DT",
+      "NN",
+      "JJ",
+      "IN",
+      "$",
+      "CD",
+      "DT",
+      "NN",
+      "CC",
+      "IN",
+      "DT",
+      "JJ",
+      "IN",
+      "$",
+      "CD",
+      "DT",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "STATE_OR_PROVINCE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=17/gov=-1",
+      "case/dep=0/gov=5",
+      "det/dep=1/gov=5",
+      "compound/dep=2/gov=5",
+      "compound/dep=3/gov=5",
+      "compound/dep=4/gov=5",
+      "nmod:in/dep=5/gov=17",
+      "punct/dep=6/gov=17",
+      "compound/dep=7/gov=9",
+      "compound/dep=8/gov=9",
+      "nsubj/dep=9/gov=17",
+      "amod/dep=10/gov=12",
+      "compound/dep=11/gov=12",
+      "nmod:for/dep=12/gov=9",
+      "case/dep=13/gov=12",
+      "dep/dep=14/gov=12",
+      "case/dep=15/gov=16",
+      "nmod:in/dep=16/gov=14",
+      "compound:prt/dep=18/gov=17",
+      "nummod/dep=19/gov=20",
+      "dobj/dep=20/gov=17",
+      "case/dep=21/gov=23",
+      "dep/dep=22/gov=23",
+      "nmod:at/dep=23/gov=17",
+      "det/dep=24/gov=25",
+      "dep/dep=25/gov=23",
+      "case/dep=26/gov=28",
+      "compound/dep=27/gov=28",
+      "nmod:during/dep=28/gov=17",
+      "punct/dep=29/gov=17",
+      "advmod/dep=30/gov=17",
+      "case/dep=31/gov=33",
+      "det/dep=32/gov=33",
+      "nmod:from/dep=33/gov=30",
+      "advmod/dep=34/gov=37",
+      "case/dep=35/gov=37",
+      "dep/dep=36/gov=37",
+      "nmod:of/dep=37/gov=33",
+      "det/dep=38/gov=39",
+      "dep/dep=39/gov=37",
+      "cc/dep=40/gov=37",
+      "advmod/dep=41/gov=37",
+      "det/dep=42/gov=43",
+      "nmod:of/dep=43/gov=33",
+      "conj:and/dep=43/gov=37",
+      "case/dep=44/gov=46",
+      "dep/dep=45/gov=46",
+      "nmod:of/dep=46/gov=43",
+      "det/dep=47/gov=48",
+      "dep/dep=48/gov=46",
+      "punct/dep=49/gov=17"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "New York Mercantile Exchange",
+        "start": 2,
+        "end": 6,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "West Texas Intermediate crude oil",
+        "start": 7,
+        "end": 12,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "futures",
+        "start": 12,
+        "end": 13,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "December",
+        "start": 16,
+        "end": 17,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "0.44 %",
+        "start": 19,
+        "end": 21,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 80.65 a barrel",
+        "start": 22,
+        "end": 26,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "U.S.",
+        "start": 27,
+        "end": 28,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 79.46 a barrel",
+        "start": 36,
+        "end": 40,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 81.26 a barrel",
+        "start": 45,
+        "end": 49,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E5",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 18,
+          "end": 19,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 2,
+            "end": 6,
+            "role": "PLACE",
+            "entity-type": "ORGANIZATION",
+            "text": "New York Mercantile Exchange",
+            "standoff_id": 0
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "West Texas Intermediate crude oil",
+            "standoff_id": 0
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "futures",
+            "standoff_id": 0
+          },
+          {
+            "start": 16,
+            "end": 17,
+            "role": "CONTRACT_DATE",
+            "entity-type": "DATE",
+            "text": "December",
+            "standoff_id": 0
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "0.44 %",
+            "standoff_id": 0
+          },
+          {
+            "start": 22,
+            "end": 26,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "$ 80.65 a barrel",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E6",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 30,
+          "end": 31,
+          "text": "up",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 22,
+            "end": 26,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "$ 80.65 a barrel",
+            "standoff_id": 0
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "role": "PLACE",
+            "entity-type": "COUNTRY",
+            "text": "U.S.",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E7",
+        "event_type": "POSITION-LOW",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 34,
+          "end": 35,
+          "text": "low",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 36,
+            "end": 40,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "$ 79.46 a barrel",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E8",
+        "event_type": "POSITION-HIGH",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 43,
+          "end": 44,
+          "text": "high",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 45,
+            "end": 49,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "$ 81.26 a barrel",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_4",
+    "words": [
+      "The",
+      "December",
+      "contract",
+      "settled",
+      "down",
+      "1.32",
+      "%",
+      "at",
+      "$",
+      "81.01",
+      "a",
+      "barrel",
+      "on",
+      "Friday",
+      "."
+    ],
+    "sentence": "The December contract settled down 1.32 % at $ 81.01 a barrel on Friday .",
+    "pos-tags": [
+      "DT",
+      "NNP",
+      "NN",
+      "VBD",
+      "RP",
+      "CD",
+      "NN",
+      "IN",
+      "$",
+      "CD",
+      "DT",
+      "NN",
+      "IN",
+      "NNP",
+      "."
+    ],
+    "ner": [
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=3/gov=-1",
+      "det/dep=0/gov=2",
+      "compound/dep=1/gov=2",
+      "nsubj/dep=2/gov=3",
+      "compound:prt/dep=4/gov=3",
+      "nummod/dep=5/gov=6",
+      "dobj/dep=6/gov=3",
+      "case/dep=7/gov=9",
+      "dep/dep=8/gov=9",
+      "nmod:at/dep=9/gov=3",
+      "det/dep=10/gov=11",
+      "dep/dep=11/gov=9",
+      "case/dep=12/gov=13",
+      "nmod:on/dep=13/gov=3",
+      "punct/dep=14/gov=3"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "December",
+        "start": 1,
+        "end": 2,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "contract",
+        "start": 2,
+        "end": 3,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "1.32 %",
+        "start": 5,
+        "end": 7,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 81.01 a barrel",
+        "start": 8,
+        "end": 12,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "Friday",
+        "start": 13,
+        "end": 14,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E9",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 4,
+          "end": 5,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 1,
+            "end": 2,
+            "role": "CONTRACT_DATE",
+            "entity-type": "DATE",
+            "text": "December",
+            "standoff_id": 0
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "contract",
+            "standoff_id": 0
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "1.32 %",
+            "standoff_id": 0
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "$ 81.01 a barrel",
+            "standoff_id": 0
+          },
+          {
+            "start": 13,
+            "end": 14,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "Friday",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_5",
+    "words": [
+      "Support",
+      "for",
+      "the",
+      "commodity",
+      "was",
+      "seen",
+      "at",
+      "$",
+      "79.10",
+      "a",
+      "barrel",
+      ",",
+      "the",
+      "low",
+      "from",
+      "Oct.",
+      "16",
+      ",",
+      "and",
+      "resistance",
+      "at",
+      "$",
+      "83.26",
+      "a",
+      "barrel",
+      ",",
+      "last",
+      "Tuesday",
+      "'s",
+      "high",
+      "."
+    ],
+    "sentence": "Support for the commodity was seen at $ 79.10 a barrel , the low from Oct. 16 , and resistance at $ 83.26 a barrel , last Tuesday 's high .",
+    "pos-tags": [
+      "NN",
+      "IN",
+      "DT",
+      "NN",
+      "VBD",
+      "VBN",
+      "IN",
+      "$",
+      "CD",
+      "DT",
+      "NN",
+      ",",
+      "DT",
+      "JJ",
+      "IN",
+      "NNP",
+      "CD",
+      ",",
+      "CC",
+      "NN",
+      "IN",
+      "$",
+      "CD",
+      "DT",
+      "NN",
+      ",",
+      "JJ",
+      "NNP",
+      "POS",
+      "JJ",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=5/gov=-1",
+      "nsubjpass/dep=0/gov=5",
+      "case/dep=1/gov=3",
+      "det/dep=2/gov=3",
+      "nmod:for/dep=3/gov=0",
+      "auxpass/dep=4/gov=5",
+      "case/dep=6/gov=8",
+      "dep/dep=7/gov=8",
+      "nmod:at/dep=8/gov=5",
+      "det/dep=9/gov=10",
+      "dep/dep=10/gov=8",
+      "punct/dep=11/gov=8",
+      "det/dep=12/gov=13",
+      "nmod:at/dep=13/gov=5",
+      "conj:and/dep=13/gov=8",
+      "case/dep=14/gov=15",
+      "nmod:from/dep=15/gov=13",
+      "nummod/dep=16/gov=15",
+      "punct/dep=17/gov=8",
+      "cc/dep=18/gov=8",
+      "nmod:at/dep=19/gov=5",
+      "conj:and/dep=19/gov=8",
+      "case/dep=20/gov=22",
+      "dep/dep=21/gov=22",
+      "nmod:at/dep=22/gov=19",
+      "det/dep=23/gov=24",
+      "dep/dep=24/gov=22",
+      "punct/dep=25/gov=22",
+      "amod/dep=26/gov=27",
+      "appos/dep=27/gov=22",
+      "case/dep=28/gov=27",
+      "amod/dep=29/gov=27",
+      "punct/dep=30/gov=5"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "$ 79.10 a barrel",
+        "start": 7,
+        "end": 11,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "Oct. 16",
+        "start": 15,
+        "end": 17,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 83.26 a barrel",
+        "start": 21,
+        "end": 25,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "last Tuesday",
+        "start": 26,
+        "end": 28,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E10",
+        "event_type": "POSITION-LOW",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 13,
+          "end": 14,
+          "text": "low",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 7,
+            "end": 11,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "$ 79.10 a barrel",
+            "standoff_id": 0
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "role": "INITIAL_REFERENCE_POINT",
+            "entity-type": "DATE",
+            "text": "Oct. 16",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E11",
+        "event_type": "POSITION-HIGH",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 29,
+          "end": 30,
+          "text": "high",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 21,
+            "end": 25,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "$ 83.26 a barrel",
+            "standoff_id": 0
+          },
+          {
+            "start": 26,
+            "end": 28,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "last Tuesday",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_6",
+    "words": [
+      "Oil",
+      "prices",
+      "dropped",
+      "though",
+      "they",
+      "came",
+      "off",
+      "earlier",
+      "lows",
+      "after",
+      "Goldman",
+      "Sachs",
+      "cut",
+      "its",
+      "oil",
+      "price",
+      "forecast",
+      "for",
+      "WTI",
+      "in",
+      "the",
+      "first",
+      "quarter",
+      "of",
+      "next",
+      "year",
+      "by",
+      "$",
+      "15",
+      "to",
+      "$",
+      "75",
+      "a",
+      "barrel",
+      "."
+    ],
+    "sentence": "Oil prices dropped though they came off earlier lows after Goldman Sachs cut its oil price forecast for WTI in the first quarter of next year by $ 15 to $ 75 a barrel .",
+    "pos-tags": [
+      "NN",
+      "NNS",
+      "VBD",
+      "IN",
+      "PRP",
+      "VBD",
+      "RB",
+      "JJR",
+      "NNS",
+      "IN",
+      "NNP",
+      "NNP",
+      "VBD",
+      "PRP$",
+      "NN",
+      "NN",
+      "NN",
+      "IN",
+      "NNP",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "IN",
+      "JJ",
+      "NN",
+      "IN",
+      "$",
+      "CD",
+      "TO",
+      "$",
+      "CD",
+      "DT",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "DATE",
+      "DATE",
+      "DATE",
+      "DATE",
+      "DATE",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=2/gov=-1",
+      "compound/dep=0/gov=1",
+      "nsubj/dep=1/gov=2",
+      "mark/dep=3/gov=5",
+      "nsubj/dep=4/gov=5",
+      "advcl:though/dep=5/gov=2",
+      "compound:prt/dep=6/gov=5",
+      "amod/dep=7/gov=8",
+      "dobj/dep=8/gov=5",
+      "mark/dep=9/gov=12",
+      "compound/dep=10/gov=11",
+      "nsubj/dep=11/gov=12",
+      "advcl:after/dep=12/gov=5",
+      "nmod:poss/dep=13/gov=16",
+      "compound/dep=14/gov=16",
+      "compound/dep=15/gov=16",
+      "dobj/dep=16/gov=12",
+      "case/dep=17/gov=18",
+      "nmod:for/dep=18/gov=12",
+      "case/dep=19/gov=22",
+      "det/dep=20/gov=22",
+      "amod/dep=21/gov=22",
+      "nmod:in/dep=22/gov=18",
+      "case/dep=23/gov=25",
+      "amod/dep=24/gov=25",
+      "nmod:of/dep=25/gov=22",
+      "case/dep=26/gov=30",
+      "dep/dep=27/gov=30",
+      "compound/dep=28/gov=30",
+      "dep/dep=29/gov=30",
+      "nmod:by/dep=30/gov=12",
+      "nummod/dep=31/gov=30",
+      "det/dep=32/gov=33",
+      "dep/dep=33/gov=30",
+      "punct/dep=34/gov=2"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Oil",
+        "start": 0,
+        "end": 1,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "prices",
+        "start": 1,
+        "end": 2,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "Goldman Sachs",
+        "start": 10,
+        "end": 12,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "oil",
+        "start": 14,
+        "end": 15,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "price",
+        "start": 15,
+        "end": 16,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "forecast",
+        "start": 16,
+        "end": 17,
+        "entity-type": "FORECAST_TARGET",
+        "standoff_id": 0
+      },
+      {
+        "text": "WTI",
+        "start": 18,
+        "end": 19,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "the first quarter of next year",
+        "start": 20,
+        "end": 26,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 15",
+        "start": 27,
+        "end": 29,
+        "entity-type": "MONEY",
+        "standoff_id": 0
+      },
+	  {
+        "text": "$ 75 a barrel",
+        "start": 29,
+        "end": 34,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E12",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 2,
+          "end": 3,
+          "text": "dropped",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 0,
+            "end": 1,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Oil",
+            "standoff_id": 0
+          },
+          {
+            "start": 1,
+            "end": 2,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "prices",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E13",
+        "event_type": "POSITION-LOW",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 8,
+          "end": 9,
+          "text": "lows",
+          "standoff_id": 0
+        },
+        "arguments": []
+      },
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E14",
+        "event_type": "CAUSE-MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 12,
+          "end": 13,
+          "text": "cut",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 10,
+            "end": 12,
+            "role": "FORECASTER",
+            "entity-type": "ORGANIZATION",
+            "text": "Goldman Sachs",
+            "standoff_id": 0
+          },
+          {
+            "start": 14,
+            "end": 15,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "oil",
+            "standoff_id": 0
+          },
+          {
+            "start": 15,
+            "end": 16,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "price",
+            "standoff_id": 0
+          },
+          {
+            "start": 16,
+            "end": 17,
+            "role": "FORECAST",
+            "entity-type": "FORECAST_TARGET",
+            "text": "forecast",
+            "standoff_id": 0
+          },
+          {
+            "start": 18,
+            "end": 19,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "WTI",
+            "standoff_id": 0
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "the first quarter of next year",
+            "standoff_id": 0
+          },
+                {
+        
+        "start": 27,
+        "end": 29,
+		"role": "INITIAL_VALUE",
+        "entity-type": "MONEY",
+		"text": "$ 15",
+        "standoff_id": 0
+      },
+	  {
+        
+        "start": 29,
+        "end": 34,
+		"role": "FINAL_VALUE",
+        "entity-type": "PRICE_UNIT",
+		"text": "$ 75 a barrel",
+        "standoff_id": 0
+      }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_7",
+    "words": [
+      "The",
+      "bank",
+      "expects",
+      "Brent",
+      "prices",
+      "to",
+      "average",
+      "$",
+      "85",
+      "a",
+      "barrel",
+      "in",
+      "the",
+      "first",
+      "three",
+      "months",
+      "of",
+      "2015",
+      ",",
+      "down",
+      "from",
+      "a",
+      "previous",
+      "estimate",
+      "of",
+      "$",
+      "100",
+      "."
+    ],
+    "sentence": "The bank expects Brent prices to average $ 85 a barrel in the first three months of 2015 , down from a previous estimate of $ 100 .",
+    "pos-tags": [
+      "DT",
+      "NN",
+      "VBZ",
+      "NNP",
+      "NNS",
+      "TO",
+      "JJ",
+      "$",
+      "CD",
+      "DT",
+      "NN",
+      "IN",
+      "DT",
+      "JJ",
+      "CD",
+      "NNS",
+      "IN",
+      "CD",
+      ",",
+      "RB",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "IN",
+      "$",
+      "CD",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "DATE",
+      "DATE",
+      "DATE",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=2/gov=-1",
+      "det/dep=0/gov=1",
+      "nsubj/dep=1/gov=2",
+      "compound/dep=3/gov=4",
+      "dobj/dep=4/gov=2",
+      "case/dep=5/gov=6",
+      "nmod:to/dep=6/gov=2",
+      "dep/dep=7/gov=8",
+      "nmod:in/dep=8/gov=6",
+      "det/dep=9/gov=10",
+      "dep/dep=10/gov=8",
+      "case/dep=11/gov=8",
+      "det/dep=12/gov=15",
+      "amod/dep=13/gov=15",
+      "nummod/dep=14/gov=15",
+      "dep/dep=15/gov=8",
+      "case/dep=16/gov=17",
+      "nmod:of/dep=17/gov=15",
+      "punct/dep=18/gov=15",
+      "advmod/dep=19/gov=15",
+      "case/dep=20/gov=23",
+      "det/dep=21/gov=23",
+      "amod/dep=22/gov=23",
+      "nmod:from/dep=23/gov=19",
+      "case/dep=24/gov=26",
+      "dep/dep=25/gov=26",
+      "nmod:of/dep=26/gov=23",
+      "punct/dep=27/gov=2"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Brent",
+        "start": 3,
+        "end": 4,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "prices",
+        "start": 4,
+        "end": 5,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 85 a barrel",
+        "start": 7,
+        "end": 11,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "the first three months of 2015",
+        "start": 12,
+        "end": 18,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "estimate",
+        "start": 23,
+        "end": 24,
+        "entity-type": "FORECAST_TARGET",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 100",
+        "start": 25,
+        "end": 27,
+        "entity-type": "MONEY",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E15",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 19,
+          "end": 20,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 12,
+            "end": 18,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "the first three months of 2015",
+            "standoff_id": 0
+          },
+          {
+            "start": 23,
+            "end": 24,
+            "role": "INITIAL_REFERENCE_POINT",
+            "entity-type": "FORECAST_TARGET",
+            "text": "estimate",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_8",
+    "words": [
+      "Goldman",
+      "analysts",
+      "expect",
+      "WTI",
+      "to",
+      "fall",
+      "as",
+      "low",
+      "as",
+      "$",
+      "70",
+      "a",
+      "barrel",
+      "and",
+      "Brent",
+      "to",
+      "$",
+      "80",
+      "in",
+      "the",
+      "second",
+      "quarter",
+      "of",
+      "2015",
+      ",",
+      "when",
+      "it",
+      "expects",
+      "oversupply",
+      "to",
+      "be",
+      "most",
+      "pronounced",
+      "."
+    ],
+    "sentence": "Goldman analysts expect WTI to fall as low as $ 70 a barrel and Brent to $ 80 in the second quarter of 2015 , when it expects oversupply to be most pronounced .",
+    "pos-tags": [
+      "NNP",
+      "NNS",
+      "VBP",
+      "NNP",
+      "TO",
+      "VB",
+      "RB",
+      "JJ",
+      "IN",
+      "$",
+      "CD",
+      "DT",
+      "NN",
+      "CC",
+      "NNP",
+      "TO",
+      "$",
+      "CD",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "IN",
+      "CD",
+      ",",
+      "WRB",
+      "PRP",
+      "VBZ",
+      "NN",
+      "TO",
+      "VB",
+      "RBS",
+      "JJ",
+      "."
+    ],
+    "ner": [
+      "ORGANIZATION",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "DATE",
+      "DATE",
+      "DATE",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=2/gov=-1",
+      "compound/dep=0/gov=1",
+      "nsubj/dep=1/gov=2",
+      "dobj/dep=3/gov=2",
+      "nsubj:xsubj/dep=3/gov=5",
+      "mark/dep=4/gov=5",
+      "xcomp/dep=5/gov=2",
+      "advmod/dep=6/gov=9",
+      "advmod/dep=7/gov=9",
+      "advmod/dep=8/gov=9",
+      "dobj/dep=9/gov=5",
+      "nummod/dep=10/gov=9",
+      "det/dep=11/gov=12",
+      "dep/dep=12/gov=9",
+      "cc/dep=13/gov=9",
+      "dobj/dep=14/gov=5",
+      "conj:and/dep=14/gov=9",
+      "case/dep=15/gov=17",
+      "dep/dep=16/gov=17",
+      "nmod:to/dep=17/gov=14",
+      "case/dep=18/gov=21",
+      "det/dep=19/gov=21",
+      "amod/dep=20/gov=21",
+      "nmod:in/dep=21/gov=5",
+      "case/dep=22/gov=23",
+      "nmod:of/dep=23/gov=21",
+      "punct/dep=24/gov=2",
+      "advmod/dep=25/gov=27",
+      "nsubj/dep=26/gov=27",
+      "advcl/dep=27/gov=2",
+      "dobj/dep=28/gov=27",
+      "nsubj:xsubj/dep=28/gov=32",
+      "mark/dep=29/gov=32",
+      "cop/dep=30/gov=32",
+      "advmod/dep=31/gov=32",
+      "xcomp/dep=32/gov=27",
+      "punct/dep=33/gov=2"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Goldman",
+        "start": 0,
+        "end": 1,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "WTI",
+        "start": 3,
+        "end": 4,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 70 a barrel",
+        "start": 9,
+        "end": 13,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "Brent",
+        "start": 14,
+        "end": 15,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 80",
+        "start": 16,
+        "end": 18,
+        "entity-type": "MONEY",
+        "standoff_id": 0
+      },
+      {
+        "text": "the second quarter of 2015",
+        "start": 19,
+        "end": 24,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E16",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "OTHER",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 5,
+          "end": 6,
+          "text": "fall",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 3,
+            "end": 4,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "WTI",
+            "standoff_id": 0
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "$ 70 a barrel",
+            "standoff_id": 0
+          },
+           {
+            "start": 19,
+            "end": 24,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "the second quarter of 2015",
+            "standoff_id": 0
+          }
+        ]
+      },
+	       {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E31",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "OTHER",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 5,
+          "end": 6,
+          "text": "fall",
+          "standoff_id": 0
+        },
+        "arguments": [
+			{
+            "start": 14,
+            "end": 15,
+            "role": "FINAL_VALUE",
+            "entity-type": "COMMODITY",
+            "text": "Brent",
+            "standoff_id": 0
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "role": "FINAL_VALUE",
+            "entity-type": "MONEY",
+            "text": "$ 80",
+            "standoff_id": 0
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "the second quarter of 2015",
+            "standoff_id": 0
+          }
+        ]
+      },
+
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E18",
+        "event_type": "OVERSUPPLY",
+        "polarity": "Positive",
+        "modality": "OTHER",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 28,
+          "end": 29,
+          "text": "oversupply",
+          "standoff_id": 0
+        },
+        "arguments": []
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_9",
+    "words": [
+      "OPEC",
+      "countries",
+      "have",
+      "hinted",
+      "recently",
+      "they",
+      "may",
+      "leave",
+      "output",
+      "quotes",
+      "unchanged",
+      "and",
+      "have",
+      "stressed",
+      "the",
+      "need",
+      "to",
+      "adapt",
+      "to",
+      "lower",
+      "prices",
+      "."
+    ],
+    "sentence": "OPEC countries have hinted recently they may leave output quotes unchanged and have stressed the need to adapt to lower prices .",
+    "pos-tags": [
+      "NNP",
+      "NNS",
+      "VBP",
+      "VBN",
+      "RB",
+      "PRP",
+      "MD",
+      "VB",
+      "NN",
+      "NNS",
+      "JJ",
+      "CC",
+      "VBP",
+      "VBN",
+      "DT",
+      "NN",
+      "TO",
+      "VB",
+      "TO",
+      "JJR",
+      "NNS",
+      "."
+    ],
+    "ner": [
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=7/gov=-1",
+      "compound/dep=0/gov=1",
+      "nsubj/dep=1/gov=3",
+      "aux/dep=2/gov=3",
+      "dep/dep=3/gov=7",
+      "advmod/dep=4/gov=3",
+      "nsubj/dep=5/gov=7",
+      "nsubj/dep=5/gov=13",
+      "aux/dep=6/gov=7",
+      "compound/dep=8/gov=9",
+      "nsubj/dep=9/gov=10",
+      "xcomp/dep=10/gov=7",
+      "cc/dep=11/gov=7",
+      "aux/dep=12/gov=13",
+      "conj:and/dep=13/gov=7",
+      "det/dep=14/gov=15",
+      "dobj/dep=15/gov=13",
+      "mark/dep=16/gov=17",
+      "acl:to/dep=17/gov=15",
+      "case/dep=18/gov=20",
+      "amod/dep=19/gov=20",
+      "nmod:to/dep=20/gov=17",
+      "punct/dep=21/gov=7"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "OPEC",
+        "start": 0,
+        "end": 1,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "recently",
+        "start": 4,
+        "end": 5,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "output",
+        "start": 8,
+        "end": 9,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "prices",
+        "start": 20,
+        "end": 21,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E19",
+        "event_type": "MOVEMENT-FLAT",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 10,
+          "end": 11,
+          "text": "unchanged",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 0,
+            "end": 1,
+            "role": "SUPPLIER_CONSUMER",
+            "entity-type": "ORGANIZATION",
+            "text": "OPEC",
+            "standoff_id": 0
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "output",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E20",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 19,
+          "end": 20,
+          "text": "lower",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 20,
+            "end": 21,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "prices",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_10",
+    "words": [
+      "OPEC",
+      "will",
+      "hold",
+      "its",
+      "next",
+      "meeting",
+      "on",
+      "Nov.",
+      "27",
+      "."
+    ],
+    "sentence": "OPEC will hold its next meeting on Nov. 27 .",
+    "pos-tags": [
+      "NNP",
+      "MD",
+      "VB",
+      "PRP$",
+      "JJ",
+      "NN",
+      "IN",
+      "NNP",
+      "CD",
+      "."
+    ],
+    "ner": [
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "DATE",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=2/gov=-1",
+      "nsubj/dep=0/gov=2",
+      "aux/dep=1/gov=2",
+      "nmod:poss/dep=3/gov=5",
+      "amod/dep=4/gov=5",
+      "dobj/dep=5/gov=2",
+      "case/dep=6/gov=7",
+      "nmod:on/dep=7/gov=2",
+      "nummod/dep=8/gov=7",
+      "punct/dep=9/gov=2"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "OPEC",
+        "start": 0,
+        "end": 1,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "Nov. 27",
+        "start": 7,
+        "end": 9,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_11",
+    "words": [
+      "Still",
+      ",",
+      "bottom",
+      "fishing",
+      "brought",
+      "oil",
+      "futures",
+      "off",
+      "earlier",
+      "lows",
+      ",",
+      "as",
+      "many",
+      "investors",
+      "have",
+      "priced",
+      "in",
+      "long-term",
+      "concerns",
+      "that",
+      "supply",
+      "will",
+      "outstrip",
+      "demand",
+      "going",
+      "forward",
+      "."
+    ],
+    "sentence": "Still , bottom fishing brought oil futures off earlier lows , as many investors have priced in long-term concerns that supply will outstrip demand going forward .",
+    "pos-tags": [
+      "RB",
+      ",",
+      "JJ",
+      "NN",
+      "VBD",
+      "NN",
+      "NNS",
+      "RB",
+      "RBR",
+      "NNS",
+      ",",
+      "IN",
+      "JJ",
+      "NNS",
+      "VBP",
+      "VBN",
+      "IN",
+      "JJ",
+      "NNS",
+      "IN",
+      "NN",
+      "MD",
+      "VB",
+      "NN",
+      "VBG",
+      "RB",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=4/gov=-1",
+      "advmod/dep=0/gov=4",
+      "punct/dep=1/gov=4",
+      "amod/dep=2/gov=3",
+      "nsubj/dep=3/gov=4",
+      "compound/dep=5/gov=6",
+      "dobj/dep=6/gov=4",
+      "advmod/dep=7/gov=8",
+      "advmod/dep=8/gov=9",
+      "advmod/dep=9/gov=4",
+      "punct/dep=10/gov=4",
+      "mark/dep=11/gov=15",
+      "amod/dep=12/gov=13",
+      "nsubj/dep=13/gov=15",
+      "aux/dep=14/gov=15",
+      "advcl:as/dep=15/gov=4",
+      "case/dep=16/gov=18",
+      "amod/dep=17/gov=18",
+      "nmod:in/dep=18/gov=15",
+      "mark/dep=19/gov=22",
+      "nsubj/dep=20/gov=22",
+      "aux/dep=21/gov=22",
+      "ccomp/dep=22/gov=15",
+      "dobj/dep=23/gov=22",
+      "acl/dep=24/gov=23",
+      "advmod/dep=25/gov=24",
+      "punct/dep=26/gov=4"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "oil",
+        "start": 5,
+        "end": 6,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "futures",
+        "start": 6,
+        "end": 7,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "supply",
+        "start": 20,
+        "end": 21,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "demand",
+        "start": 23,
+        "end": 24,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E21",
+        "event_type": "POSITION-LOW",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "EASED",
+        "trigger": {
+          "start": 9,
+          "end": 10,
+          "text": "lows",
+          "standoff_id": 0
+        },
+        "arguments": [      
+		{
+        
+        "start": 5,
+        "end": 6,
+		"role": "ITEM",
+        "entity-type": "COMMODITY",
+		"text": "oil",
+        "standoff_id": 0
+      },
+      {
+        
+        "start": 6,
+        "end": 7,
+		"role": "ATTRIBUTE",
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+		"text": "futures",
+        "standoff_id": 0
+      }
+	  ]
+      },
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E22",
+        "event_type": "NEGATIVE_SENTIMENT",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 18,
+          "end": 19,
+          "text": "concerns",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 20,
+            "end": 21,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "supply",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_12",
+    "words": [
+      "Prices",
+      "have",
+      "fallen",
+      "about",
+      "20",
+      "%",
+      "in",
+      "the",
+      "last",
+      "three",
+      "months",
+      "."
+    ],
+    "sentence": "Prices have fallen about 20 % in the last three months .",
+    "pos-tags": [
+      "NNS",
+      "VBP",
+      "VBN",
+      "IN",
+      "CD",
+      "NN",
+      "IN",
+      "DT",
+      "JJ",
+      "CD",
+      "NNS",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "DURATION",
+      "DURATION",
+      "DURATION",
+      "DURATION",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=2/gov=-1",
+      "nsubj/dep=0/gov=2",
+      "aux/dep=1/gov=2",
+      "case/dep=3/gov=5",
+      "nummod/dep=4/gov=5",
+      "nmod:about/dep=5/gov=2",
+      "case/dep=6/gov=10",
+      "det/dep=7/gov=10",
+      "amod/dep=8/gov=10",
+      "nummod/dep=9/gov=10",
+      "nmod:in/dep=10/gov=5",
+      "punct/dep=11/gov=2"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Prices",
+        "start": 0,
+        "end": 1,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "20 %",
+        "start": 4,
+        "end": 6,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "the last three months",
+        "start": 7,
+        "end": 11,
+        "entity-type": "DURATION",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E23",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 2,
+          "end": 3,
+          "text": "fallen",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 0,
+            "end": 1,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "Prices",
+            "standoff_id": 0
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "20 %",
+            "standoff_id": 0
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "role": "DURATION",
+            "entity-type": "DURATION",
+            "text": "the last three months",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_13",
+    "words": [
+      "Lackluster",
+      "U.S.",
+      "data",
+      "helped",
+      "keep",
+      "the",
+      "commodity",
+      "in",
+      "negative",
+      "territory",
+      "as",
+      "well",
+      "."
+    ],
+    "sentence": "Lackluster U.S. data helped keep the commodity in negative territory as well .",
+    "pos-tags": [
+      "JJ",
+      "NNP",
+      "NNS",
+      "VBD",
+      "VB",
+      "DT",
+      "NN",
+      "IN",
+      "JJ",
+      "NN",
+      "RB",
+      "RB",
+      "."
+    ],
+    "ner": [
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=3/gov=-1",
+      "amod/dep=0/gov=2",
+      "compound/dep=1/gov=2",
+      "nsubj/dep=2/gov=3",
+      "xcomp/dep=4/gov=3",
+      "det/dep=5/gov=6",
+      "dobj/dep=6/gov=4",
+      "case/dep=7/gov=9",
+      "amod/dep=8/gov=9",
+      "nmod:in/dep=9/gov=6",
+      "advmod/dep=10/gov=4",
+      "mwe/dep=11/gov=10",
+      "punct/dep=12/gov=3"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "U.S.",
+        "start": 1,
+        "end": 2,
+        "entity-type": "COUNTRY",
+        "standoff_id": 0
+      },
+      {
+        "text": "commodity",
+        "start": 6,
+        "end": 7,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E24",
+        "event_type": "SLOW-WEAK",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 0,
+          "end": 1,
+          "text": "Lackluster",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 1,
+            "end": 2,
+            "role": "SUPPLIER_CONSUMER",
+            "entity-type": "COUNTRY",
+            "text": "U.S.",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_14",
+    "words": [
+      "The",
+      "National",
+      "Association",
+      "of",
+      "Realtors",
+      "reported",
+      "earlier",
+      "its",
+      "pending",
+      "home",
+      "sales",
+      "index",
+      "rose",
+      "by",
+      "0.3",
+      "%",
+      "last",
+      "month",
+      ",",
+      "disappointing",
+      "expectations",
+      "for",
+      "a",
+      "0.5",
+      "%",
+      "gain",
+      "."
+    ],
+    "sentence": "The National Association of Realtors reported earlier its pending home sales index rose by 0.3 % last month , disappointing expectations for a 0.5 % gain .",
+    "pos-tags": [
+      "DT",
+      "NNP",
+      "NNP",
+      "IN",
+      "NNP",
+      "VBD",
+      "JJR",
+      "PRP$",
+      "VBG",
+      "NN",
+      "NNS",
+      "NN",
+      "VBD",
+      "IN",
+      "CD",
+      "NN",
+      "JJ",
+      "NN",
+      ",",
+      "JJ",
+      "NNS",
+      "IN",
+      "DT",
+      "CD",
+      "NN",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "DATE",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=12/gov=-1",
+      "det/dep=0/gov=2",
+      "compound/dep=1/gov=2",
+      "nsubj/dep=2/gov=5",
+      "case/dep=3/gov=4",
+      "nmod:of/dep=4/gov=2",
+      "dep/dep=5/gov=12",
+      "advmod/dep=6/gov=5",
+      "nmod:poss/dep=7/gov=10",
+      "amod/dep=8/gov=10",
+      "compound/dep=9/gov=10",
+      "dobj/dep=10/gov=5",
+      "nsubj/dep=11/gov=12",
+      "case/dep=13/gov=15",
+      "nummod/dep=14/gov=15",
+      "nmod:by/dep=15/gov=12",
+      "amod/dep=16/gov=17",
+      "nmod:tmod/dep=17/gov=12",
+      "punct/dep=18/gov=12",
+      "amod/dep=19/gov=20",
+      "dobj/dep=20/gov=12",
+      "case/dep=21/gov=25",
+      "det/dep=22/gov=25",
+      "compound/dep=23/gov=24",
+      "amod/dep=24/gov=25",
+      "nmod:for/dep=25/gov=20",
+      "punct/dep=26/gov=12"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "National Association of Realtors",
+        "start": 1,
+        "end": 5,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "0.3 %",
+        "start": 14,
+        "end": 16,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "last month",
+        "start": 16,
+        "end": 18,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "0.5 %",
+        "start": 23,
+        "end": 25,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E25",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 12,
+          "end": 13,
+          "text": "rose",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 14,
+            "end": 16,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "0.3 %",
+            "standoff_id": 0
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "last month",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E26",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "NEGATIVE",
+        "modality": "OTHER",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 25,
+          "end": 26,
+          "text": "gain",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 23,
+            "end": 25,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "0.5 %",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_15",
+    "words": [
+      "Pending",
+      "home",
+      "sales",
+      "in",
+      "August",
+      "fell",
+      "by",
+      "1",
+      "%",
+      "."
+    ],
+    "sentence": "Pending home sales in August fell by 1 % .",
+    "pos-tags": [
+      "VBG",
+      "NN",
+      "NNS",
+      "IN",
+      "NNP",
+      "VBD",
+      "IN",
+      "CD",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=5/gov=-1",
+      "case/dep=0/gov=1",
+      "nmod:pending/dep=1/gov=5",
+      "nsubj/dep=2/gov=5",
+      "case/dep=3/gov=4",
+      "nmod:in/dep=4/gov=2",
+      "case/dep=6/gov=8",
+      "nummod/dep=7/gov=8",
+      "nmod:by/dep=8/gov=5",
+      "punct/dep=9/gov=5"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "August",
+        "start": 4,
+        "end": 5,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "1 %",
+        "start": 7,
+        "end": 9,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E27",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 5,
+          "end": 6,
+          "text": "fell",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 4,
+            "end": 5,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "August",
+            "standoff_id": 0
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "1 %",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_16",
+    "words": [
+      "Year-on-year",
+      ",",
+      "pending",
+      "home",
+      "sales",
+      "rose",
+      "1.0",
+      "%",
+      "in",
+      "September",
+      ",",
+      "missing",
+      "expectations",
+      "for",
+      "a",
+      "2.2",
+      "%",
+      "reading",
+      "following",
+      "a",
+      "4.1",
+      "%",
+      "decline",
+      "in",
+      "August",
+      "."
+    ],
+    "sentence": "Year-on-year , pending home sales rose 1.0 % in September , missing expectations for a 2.2 % reading following a 4.1 % decline in August .",
+    "pos-tags": [
+      "JJ",
+      ",",
+      "VBG",
+      "NN",
+      "NNS",
+      "VBD",
+      "CD",
+      "NN",
+      "IN",
+      "NNP",
+      ",",
+      "VBG",
+      "NNS",
+      "IN",
+      "DT",
+      "CD",
+      "NN",
+      "NN",
+      "VBG",
+      "DT",
+      "CD",
+      "NN",
+      "NN",
+      "IN",
+      "NNP",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "O",
+      "DATE",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=5/gov=-1",
+      "nsubj/dep=0/gov=5",
+      "punct/dep=1/gov=0",
+      "case/dep=2/gov=4",
+      "compound/dep=3/gov=4",
+      "nmod:pending/dep=4/gov=0",
+      "nummod/dep=6/gov=7",
+      "dobj/dep=7/gov=5",
+      "case/dep=8/gov=9",
+      "nmod:in/dep=9/gov=5",
+      "punct/dep=10/gov=5",
+      "advcl/dep=11/gov=5",
+      "dobj/dep=12/gov=11",
+      "case/dep=13/gov=17",
+      "det/dep=14/gov=17",
+      "nummod/dep=15/gov=17",
+      "compound/dep=16/gov=17",
+      "nmod:for/dep=17/gov=12",
+      "case/dep=18/gov=22",
+      "det/dep=19/gov=22",
+      "compound/dep=20/gov=21",
+      "amod/dep=21/gov=22",
+      "nmod:following/dep=22/gov=17",
+      "case/dep=23/gov=24",
+      "nmod:in/dep=24/gov=22",
+      "punct/dep=25/gov=5"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "1.0 %",
+        "start": 6,
+        "end": 8,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "September",
+        "start": 9,
+        "end": 10,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "2.2 %",
+        "start": 15,
+        "end": 17,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "4.1 %",
+        "start": 20,
+        "end": 22,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "August",
+        "start": 24,
+        "end": 25,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E28",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 5,
+          "end": 6,
+          "text": "rose",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 6,
+            "end": 8,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "1.0 %",
+            "standoff_id": 0
+          },
+          {
+            "start": 9,
+            "end": 10,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "September",
+            "standoff_id": 0
+          }
+        ]
+      },
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E29",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 22,
+          "end": 23,
+          "text": "decline",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 20,
+            "end": 22,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "4.1 %",
+            "standoff_id": 0
+          },
+          {
+            "start": 24,
+            "end": 25,
+            "role": "REFERENCE_POINT_TIME",
+            "entity-type": "DATE",
+            "text": "August",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397.txt_17",
+    "words": [
+      "Separately",
+      ",",
+      "on",
+      "the",
+      "ICE",
+      "Futures",
+      "Exchange",
+      "in",
+      "London",
+      ",",
+      "Brent",
+      "oil",
+      "futures",
+      "for",
+      "December",
+      "delivery",
+      "were",
+      "down",
+      "0.71",
+      "%",
+      "at",
+      "US$",
+      "85.52",
+      "a",
+      "barrel",
+      ",",
+      "while",
+      "the",
+      "spread",
+      "between",
+      "Brent",
+      "and",
+      "U.S.",
+      "crude",
+      "contracts",
+      "stood",
+      "at",
+      "$",
+      "4.87",
+      "."
+    ],
+    "sentence": "Separately , on the ICE Futures Exchange in London , Brent oil futures for December delivery were down 0.71 % at US$ 85.52 a barrel , while the spread between Brent and U.S. crude contracts stood at $ 4.87 .",
+    "pos-tags": [
+      "RB",
+      ",",
+      "IN",
+      "DT",
+      "NN",
+      "NNPS",
+      "NNP",
+      "IN",
+      "NNP",
+      ",",
+      "NNP",
+      "NN",
+      "NNS",
+      "IN",
+      "NNP",
+      "NN",
+      "VBD",
+      "RB",
+      "CD",
+      "NN",
+      "IN",
+      "$",
+      "CD",
+      "DT",
+      "NN",
+      ",",
+      "IN",
+      "DT",
+      "NN",
+      "IN",
+      "NNP",
+      "CC",
+      "NNP",
+      "JJ",
+      "NNS",
+      "VBD",
+      "IN",
+      "$",
+      "CD",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "O",
+      "CITY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "DATE",
+      "O",
+      "O",
+      "O",
+      "PERCENT",
+      "PERCENT",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "COUNTRY",
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=22/gov=-1",
+      "advmod/dep=0/gov=22",
+      "punct/dep=1/gov=22",
+      "case/dep=2/gov=6",
+      "det/dep=3/gov=6",
+      "compound/dep=4/gov=6",
+      "compound/dep=5/gov=6",
+      "nmod:on/dep=6/gov=22",
+      "case/dep=7/gov=8",
+      "nmod:in/dep=8/gov=6",
+      "punct/dep=9/gov=22",
+      "compound/dep=10/gov=12",
+      "compound/dep=11/gov=12",
+      "nsubj/dep=12/gov=22",
+      "case/dep=13/gov=15",
+      "compound/dep=14/gov=15",
+      "nmod:for/dep=15/gov=12",
+      "cop/dep=16/gov=22",
+      "advmod/dep=17/gov=22",
+      "nummod/dep=18/gov=19",
+      "nmod:npmod/dep=19/gov=17",
+      "case/dep=20/gov=22",
+      "dep/dep=21/gov=22",
+      "det/dep=23/gov=24",
+      "dep/dep=24/gov=22",
+      "punct/dep=25/gov=22",
+      "mark/dep=26/gov=35",
+      "det/dep=27/gov=28",
+      "nsubj/dep=28/gov=35",
+      "case/dep=29/gov=34",
+      "compound/dep=30/gov=34",
+      "cc/dep=31/gov=30",
+      "conj:and/dep=32/gov=30",
+      "compound/dep=32/gov=34",
+      "amod/dep=33/gov=34",
+      "nmod:between/dep=34/gov=28",
+      "advcl:while/dep=35/gov=22",
+      "case/dep=36/gov=38",
+      "dep/dep=37/gov=38",
+      "nmod:at/dep=38/gov=35",
+      "punct/dep=39/gov=22"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "ICE Futures Exchange",
+        "start": 4,
+        "end": 7,
+        "entity-type": "ORGANIZATION",
+        "standoff_id": 0
+      },
+      {
+        "text": "Brent oil",
+        "start": 10,
+        "end": 12,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "futures",
+        "start": 12,
+        "end": 13,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "December",
+        "start": 14,
+        "end": 15,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      },
+      {
+        "text": "0.71 %",
+        "start": 18,
+        "end": 20,
+        "entity-type": "PERCENTAGE",
+        "standoff_id": 0
+      },
+      {
+        "text": "US$ 85.52 a barrel",
+        "start": 21,
+        "end": 25,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      },
+      {
+        "text": "U.S. crude",
+        "start": 32,
+        "end": 34,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "contracts",
+        "start": 34,
+        "end": 35,
+        "entity-type": "FINANCIAL_ATTRIBUTE",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 4.87",
+        "start": 37,
+        "end": 39,
+        "entity-type": "MONEY",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-drops-as-Goldman-Sachs-trims-price-forecast-314397_E30",
+        "event_type": "MOVEMENT-DOWN-LOSS",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 17,
+          "end": 18,
+          "text": "down",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 4,
+            "end": 7,
+            "role": "PLACE",
+            "entity-type": "ORGANIZATION",
+            "text": "ICE Futures Exchange",
+            "standoff_id": 0
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Brent oil",
+            "standoff_id": 0
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "role": "ATTRIBUTE",
+            "entity-type": "FINANCIAL_ATTRIBUTE",
+            "text": "futures",
+            "standoff_id": 0
+          },
+          {
+            "start": 14,
+            "end": 15,
+            "role": "CONTRACT_DATE",
+            "entity-type": "DATE",
+            "text": "December",
+            "standoff_id": 0
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "role": "DIFFERENCE",
+            "entity-type": "PERCENTAGE",
+            "text": "0.71 %",
+            "standoff_id": 0
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "US$ 85.52 a barrel",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  }
+]

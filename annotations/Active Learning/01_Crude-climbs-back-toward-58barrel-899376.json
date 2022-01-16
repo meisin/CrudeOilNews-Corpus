@@ -1,0 +1,174 @@
+[
+  {
+    "sentence_id": "Crude-climbs-back-toward-58barrel-899376.txt_0",
+    "words": [
+      "Crude",
+      "climbs",
+      "back",
+      "toward",
+      "$",
+      "58/barrel",
+      "."
+    ],
+    "sentence": "Crude climbs back toward $ 58/barrel .",
+    "pos-tags": [
+      "JJ",
+      "VBZ",
+      "RB",
+      "IN",
+      "$",
+      "CD",
+      "."
+    ],
+    "ner": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "MONEY",
+      "MONEY",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=1/gov=-1",
+      "nsubj/dep=0/gov=1",
+      "advmod/dep=2/gov=1",
+      "case/dep=3/gov=5",
+      "dep/dep=4/gov=5",
+      "nmod:toward/dep=5/gov=1",
+      "punct/dep=6/gov=1"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Crude",
+        "start": 0,
+        "end": 1,
+        "entity-type": "COMMODITY",
+        "standoff_id": 0
+      },
+      {
+        "text": "$ 58/barrel",
+        "start": 4,
+        "end": 6,
+        "entity-type": "PRICE_UNIT",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "id": "Crude-climbs-back-toward-58barrel-899376_E1",
+        "event_type": "MOVEMENT-UP-GAIN",
+        "polarity": "Positive",
+        "modality": "Asserted",
+        "intensity": "Neutral",
+        "trigger": {
+          "start": 1,
+          "end": 2,
+          "text": "climbs",
+          "standoff_id": 0
+        },
+        "arguments": [
+          {
+            "start": 0,
+            "end": 1,
+            "role": "ITEM",
+            "entity-type": "COMMODITY",
+            "text": "Crude",
+            "standoff_id": 0
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "role": "FINAL_VALUE",
+            "entity-type": "PRICE_UNIT",
+            "text": "$ 58/barrel",
+            "standoff_id": 0
+          }
+        ]
+      }
+    ],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-climbs-back-toward-58barrel-899376.txt_1",
+    "words": [
+      "Nov",
+      "22",
+      ",",
+      "2017",
+      "04:06",
+      "AM",
+      "E.",
+      "https://www.investing.com/news/commodities-news/crude-climbs-back-toward-58barrel-899376",
+      "."
+    ],
+    "sentence": "Nov 22 , 2017 04:06 AM E. https://www.investing.com/news/commodities-news/crude-climbs-back-toward-58barrel-899376 .",
+    "pos-tags": [
+      "NNP",
+      "CD",
+      ",",
+      "CD",
+      "CD",
+      "NNP",
+      "NNP",
+      "NN",
+      "."
+    ],
+    "ner": [
+      "TIME",
+      "TIME",
+      "TIME",
+      "DATE",
+      "TIME",
+      "TIME",
+      "O",
+      "URL",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=0/gov=-1",
+      "nummod/dep=1/gov=0",
+      "punct/dep=2/gov=0",
+      "nummod/dep=3/gov=0",
+      "nummod/dep=4/gov=7",
+      "compound/dep=5/gov=7",
+      "compound/dep=6/gov=7",
+      "dep/dep=7/gov=0",
+      "punct/dep=8/gov=0"
+    ],
+    "golden-entity-mentions": [
+      {
+        "text": "Nov 22 , 2017",
+        "start": 0,
+        "end": 4,
+        "entity-type": "DATE",
+        "standoff_id": 0
+      }
+    ],
+    "golden-event-mentions": [],
+    "event-event-relations": []
+  },
+  {
+    "sentence_id": "Crude-climbs-back-toward-58barrel-899376.txt_2",
+    "words": [
+      "Original",
+      "article"
+    ],
+    "sentence": "Original article",
+    "pos-tags": [
+      "JJ",
+      "NN"
+    ],
+    "ner": [
+      "O",
+      "O"
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=1/gov=-1",
+      "amod/dep=0/gov=1"
+    ],
+    "golden-entity-mentions": [],
+    "golden-event-mentions": [],
+    "event-event-relations": []
+  }
+]
